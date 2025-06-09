@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RadarTrip - Trouvez votre prochaine aventure</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    :root {
+      --primary: #4361ee;
+      --secondary: #3f37c9;
+      --accent: #4cc9f0;
+      --light: #f8f9fa;
+      --dark: #212529;
+      --success: #4bb543;
+      --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      --transition: all 0.3s ease;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: var(--light);
+      color: var(--dark);
+      line-height: 1.6;
+    }
+
+    /* Navigation */
+    .navbar {
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      padding: 1rem 5%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: var(--shadow);
+    }
+
+    .logo {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: white;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .logo i {
+      color: var(--accent);
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      position: relative;
+      transition: var(--transition);
+      padding: 0.5rem 0;
+    }
+
+    .nav-links a::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background-color: var(--accent);
+      transition: var(--transition);
+    }
+
+    .nav-links a:hover::after {
+      width: 100%;
+    }
+
+    .nav-links a:hover {
+      color: var(--accent);
+    }
+
+    /* Hero Section */
+    .hero {
+      height: 60vh;
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                  url('https://images.unsplash.com/photo-1506929562872-bb421503ef21?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80') no-repeat center center/cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+      padding: 0 2rem;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg, rgba(67, 97, 238, 0.3), rgba(63, 55, 201, 0.3));
+      z-index: 1;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      max-width: 800px;
+      animation: fadeInUp 1s ease-out;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    }
+
+    /* Search Form */
+    .search-container {
+      max-width: 1000px;
+      margin: -2.5rem auto 2rem;
+      padding: 2rem;
+      background: white;
+      border-radius: 15px;
+      box-shadow: var(--shadow);
+      position: relative;
+      z-index: 10;
+      animation: fadeIn 0.8s ease-out;
+    }
+
+    .search-form {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .form-group {
+      margin-bottom: 1rem;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: 500;
+      color: var(--dark);
+    }
+
+    .form-control {
+      width: 100%;
+      padding: 0.8rem 1rem;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      font-family: inherit;
+      font-size: 1rem;
+      transition: var(--transition);
+    }
+
+    .form-control:focus {
+      outline: none;
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(67, 97, 238, 0.2);
+    }
+
+    .btn {
+      display: inline-block;
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      color: white;
+      border: none;
+      padding: 0.8rem 1.5rem;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: var(--transition);
+      text-align: center;
+      text-decoration: none;
+      grid-column: 1 / -1;
+    }
+
+    .btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .btn i {
+      margin-left: 0.5rem;
+    }
+
+    /* Results Section */
+    .results-section {
+      padding: 2rem 5%;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 3rem;
+      position: relative;
+    }
+
+    .section-title h2 {
+      font-size: 2.5rem;
+      color: var(--dark);
+      display: inline-block;
+    }
+
+    .section-title h2::after {
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 80px;
+      height: 4px;
+      background: linear-gradient(90deg, var(--primary), var(--accent));
+      border-radius: 2px;
+    }
+
+    .results-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 2rem;
+    }
+
+    .destination-card {
+      background: white;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      transition: var(--transition);
+      position: relative;
+    }
+
+    .destination-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    }
+
+    .card-img {
+      height: 200px;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    .card-badge {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      background-color: var(--success);
+      color: white;
+      padding: 0.3rem 0.8rem;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      font-weight: 500;
+    }
+
+    .card-content {
+      padding: 1.5rem;
+    }
+
+    .card-title {
+      font-size: 1.3rem;
+      margin-bottom: 0.5rem;
+      color: var(--dark);
+    }
+
+    .card-details {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 1rem;
+      color: #666;
+      font-size: 0.9rem;
+    }
+
+    .card-price {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--primary);
+      margin: 1rem 0;
+    }
+
+    .card-price span {
+      font-size: 1rem;
+      font-weight: 400;
+      color: #666;
+    }
+
+    .card-btn {
+      display: block;
+      width: 100%;
+      text-align: center;
+      background-color: var(--accent);
+      color: white;
+      padding: 0.6rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: var(--transition);
+    }
+
+    .card-btn:hover {
+      background-color: var(--primary);
+    }
+
+    /* About Section */
+    .about-section {
+      padding: 5rem 5%;
+      background: linear-gradient(135deg, #f5f7fa, #e4e8f0);
+    }
+
+    .about-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+      align-items: center;
+    }
+
+    .about-img {
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      animation: fadeInLeft 1s ease-out;
+    }
+
+    .about-img img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .about-content {
+      animation: fadeInRight 1s ease-out;
+    }
+
+    .about-content h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1.5rem;
+      color: var(--dark);
+    }
+
+    .about-content p {
+      margin-bottom: 1.5rem;
+      color: #555;
+    }
+
+    .features {
+      margin-top: 2rem;
+    }
+
+    .feature-item {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 1.5rem;
+    }
+
+    .feature-icon {
+      background-color: var(--accent);
+      color: white;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 1rem;
+      flex-shrink: 0;
+    }
+
+    .feature-text h3 {
+      font-size: 1.2rem;
+      margin-bottom: 0.3rem;
+      color: var(--dark);
+    }
+
+    .feature-text p {
+      margin: 0;
+      color: #666;
+      font-size: 0.9rem;
+    }
+
+    /* Footer */
+    .footer {
+      background-color: var(--dark);
+      color: white;
+      padding: 4rem 5% 2rem;
+    }
+
+    .footer-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 3rem;
+    }
+
+    .footer-col h3 {
+      font-size: 1.3rem;
+      margin-bottom: 1.5rem;
+      position: relative;
+    }
+
+    .footer-col h3::after {
+      content: '';
+      position: absolute;
+      bottom: -8px;
+      left: 0;
+      width: 40px;
+      height: 3px;
+      background-color: var(--accent);
+    }
+
+    .footer-col p {
+      margin-bottom: 1rem;
+      color: #bbb;
+    }
+
+    .footer-links {
+      list-style: none;
+    }
+
+    .footer-links li {
+      margin-bottom: 0.8rem;
+    }
+
+    .footer-links a {
+      color: #bbb;
+      text-decoration: none;
+      transition: var(--transition);
+    }
+
+    .footer-links a:hover {
+      color: var(--accent);
+      padding-left: 5px;
+    }
+
+    .social-links {
+      display: flex;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .social-links a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 50%;
+      color: white;
+      transition: var(--transition);
+    }
+
+    .social-links a:hover {
+      background-color: var(--accent);
+      transform: translateY(-3px);
+    }
+
+    .footer-bottom {
+      text-align: center;
+      padding-top: 2rem;
+      margin-top: 2rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      color: #bbb;
+      font-size: 0.9rem;
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes fadeInUp {
+      from { 
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to { 
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeInLeft {
+      from {
+        opacity: 0;
+        transform: translateX(-50px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    @keyframes fadeInRight {
+      from {
+        opacity: 0;
+        transform: translateX(50px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    /* Responsive Design */
+    @media (max-width: 992px) {
+      .about-container {
+        grid-template-columns: 1fr;
+      }
+      
+      .about-img {
+        max-width: 600px;
+        margin: 0 auto;
+      }
+      
+      .about-content {
+        text-align: center;
+      }
+      
+      .feature-item {
+        justify-content: center;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2.5rem;
+      }
+      
+      .search-form {
+        grid-template-columns: 1fr;
+      }
+      
+      .navbar {
+        flex-direction: column;
+        padding: 1rem;
+      }
+      
+      .nav-links {
+        margin-top: 1rem;
+      }
+    }
+
+    @media (max-width: 576px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+      
+      .section-title h2 {
+        font-size: 2rem;
+      }
+      
+      .search-container {
+        padding: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <a href="index.html" class="logo">
+      <i class="fas fa-plane"></i> RadarTrip
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="#destinations">Destinations</a></li>
+      <li><a href="#about">À propos</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Découvrez le monde avec nous</h1>
+      <p>Trouvez les meilleures offres de vols vers des destinations incroyables à travers le globe</p>
+      <a href="#search" class="btn">Commencer la recherche <i class="fas fa-search"></i></a>
+    </div>
+  </section>
+
+  <!-- Search Form -->
+  <div class="search-container" id="search">
+    <form class="search-form" id="searchForm">
+      <div class="form-group">
+        <label for="from">Ville de départ</label>
+        <input type="text" id="from" class="form-control" placeholder="Paris" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="country">Pays de destination</label>
+        <select id="country" class="form-control" required>
+          <option value="">Sélectionnez un pays</option>
+          <option value="FR">France</option>
+          <option value="ES">Espagne</option>
+          <option value="IT">Italie</option>
+          <option value="US">États-Unis</option>
+          <option value="JP">Japon</option>
+        </select>
+      </div>
+      
+      <div class="form-group">
+        <label for="departure">Date de départ</label>
+        <input type="date" id="departure" class="form-control" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="return">Date de retour</label>
+        <input type="date" id="return" class="form-control" required>
+      </div>
+      
+      <button type="submit" class="btn">Rechercher <i class="fas fa-paper-plane"></i></button>
+    </form>
+  </div>
+
+  <!-- Results Section -->
+  <section class="results-section" id="destinations">
+    <div class="section-title">
+      <h2>Destinations populaires</h2>
+    </div>
+    
+    <div class="results-grid" id="results">
+      <!-- Results will be dynamically inserted here -->
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about-section" id="about">
+    <div class="about-container">
+      <div class="about-img">
+        <img src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="À propos de RadarTrip">
+      </div>
+      
+      <div class="about-content">
+        <h2>Notre mission</h2>
+        <p>RadarTrip est une plateforme innovante qui révolutionne la façon dont vous planifiez vos voyages. Notre objectif est de simplifier la recherche de vols tout en vous offrant les meilleures options disponibles.</p>
+        
+        <div class="features">
+          <div class="feature-item">
+            <div class="feature-icon">
+              <i class="fas fa-bolt"></i>
+            </div>
+            <div class="feature-text">
+              <h3>Recherche rapide</h3>
+              <p>Trouvez les meilleurs vols en quelques secondes grâce à notre moteur de recherche optimisé.</p>
+            </div>
+          </div>
+          
+          <div class="feature-item">
+            <div class="feature-icon">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <div class="feature-text">
+              <h3>Comparaison intelligente</h3>
+              <p>Comparez les prix de plusieurs compagnies aériennes pour trouver l'offre parfaite.</p>
+            </div>
+          </div>
+          
+          <div class="feature-item">
+            <div class="feature-icon">
+              <i class="fas fa-heart"></i>
+            </div>
+            <div class="feature-text">
+              <h3>Expérience utilisateur</h3>
+              <p>Une interface intuitive conçue pour rendre votre expérience de réservation agréable et sans stress.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" id="contact">
+    <div class="footer-container">
+      <div class="footer-col">
+        <h3>RadarTrip</h3>
+        <p>Votre compagnon de voyage pour découvrir le monde à des prix imbattables.</p>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      
+      <div class="footer-col">
+        <h3>Liens utiles</h3>
+        <ul class="footer-links">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="#destinations">Destinations</a></li>
+          <li><a href="#about">À propos</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-col">
+        <h3>Services</h3>
+        <ul class="footer-links">
+          <li><a href="#">Réservation de vols</a></li>
+          <li><a href="#">Hôtels</a></li>
+          <li><a href="#">Location de voiture</a></li>
+          <li><a href="#">Assurance voyage</a></li>
+          <li><a href="#">Circuits organisés</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-col">
+        <h3>Contact</h3>
+        <p><i class="fas fa-map-marker-alt"></i> 123 Rue du Voyage, Paris</p>
+        <p><i class="fas fa-phone"></i> +33 1 23 45 67 89</p>
+        <p><i class="fas fa-envelope"></i> contact@RadarTrip.com</p>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; 2023 RadarTrip. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Sample data for destinations
+    const citiesByCountry = {
+      FR: [
+        { name: "Paris", img: "https://images.unsplash.com/photo-1431274172761-fca41d930114?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80", popular: true },
+        { name: "Lyon", img: "https://images.unsplash.com/photo-1564507004663-b6dfb3c824d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80", popular: false },
+        { name: "Marseille", img: "https://images.unsplash.com/photo-1585506942812-e72b29cef752?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80", popular: true },
+        { name: "Nice", img: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80", popular: true }
+      ],
+      ES: [
+        { name: "Madrid", img: "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80", popular: true },
+        { name: "Barcelone", img: "https://images.unsplash.com/photo-1583422409516-2895ce77f9a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80", popular: true },
+        { name: "Séville", img: "https://images.unsplash.com/photo-1558642084-fd07fae5282c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1436&q=80", popular: false },
+        { name: "Valence", img: "https://images.unsplash.com/photo-1580652611975-af70e1b55c3d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80", popular: true }
+      ],
+      IT: [
+        { name: "Rome", img: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1592&q=80", popular: true },
+        { name: "Milan", img: "https://images.unsplash.com/photo-1610019085766-e3308aa0d4c1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80", popular: false },
+        { name: "Venise", img: "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80", popular: true },
+        { name: "Florence", img: "https://images.unsplash.com/photo-1498354136128-58f790194fa7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80", popular: true }
+      ],
+      US: [
+        { name: "New York", img: "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80", popular: true },
+        { name: "Los Angeles", img: "https://images.unsplash.com/photo-1515896769750-31548aa180f8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80", popular: true },
+        { name: "Chicago", img: "https://images.unsplash.com/photo-1494522359631-5fea9e7b1a18?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80", popular: false },
+        { name: "Miami", img: "https://images.unsplash.com/photo-1514214246283-d427a95c5d2f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1473&q=80", popular: true }
+      ],
+      JP: [
+        { name: "Tokyo", img: "https://images.unsplash.com/photo-1542051841857-5f90071e7989?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80", popular: true },
+        { name: "Kyoto", img: "https://images.unsplash.com/photo-1492571350019-22de08371fd3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1453&q=80", popular: true },
+        { name: "Osaka", img: "https://images.unsplash.com/photo-1563492065599-3520f775eeed?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80", popular: false },
+        { name: "Hiroshima", img: "https://images.unsplash.com/photo-1580655650490-90df0b5a9f6a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80", popular: true }
+      ]
+    };
+
+    // Display popular destinations on page load
+    document.addEventListener('DOMContentLoaded', function() {
+      displayPopularDestinations();
+    });
+
+    // Function to display popular destinations
+    function displayPopularDestinations() {
+      const resultsContainer = document.getElementById('results');
+      resultsContainer.innerHTML = '';
+      
+      // Get all popular destinations from all countries
+      let popularDestinations = [];
+      for (const country in citiesByCountry) {
+        popularDestinations = popularDestinations.concat(
+          citiesByCountry[country].filter(dest => dest.popular)
+        );
+      }
+      
+      // Shuffle and get first 6
+      popularDestinations = shuffleArray(popularDestinations).slice(0, 6);
+      
+      // Display them
+      popularDestinations.forEach(destination => {
+        const price = (Math.random() * 500 + 100).toFixed(2);
+        const duration = Math.floor(Math.random() * 8) + 2;
+        
+        const card = document.createElement('div');
+        card.className = 'destination-card';
+        card.innerHTML = `
+          <img src="${destination.img}" alt="${destination.name}" class="card-img">
+          ${destination.popular ? '<span class="card-badge">Populaire</span>' : ''}
+          <div class="card-content">
+            <h3 class="card-title">${destination.name}</h3>
+            <div class="card-details">
+              <span><i class="far fa-clock"></i> ${duration}h</span>
+              <span><i class="fas fa-plane-departure"></i> Vol direct</span>
+            </div>
+            <div class="card-price">${price}€ <span>aller-retour</span></div>
+            <a href="#" class="card-btn">Voir les offres <i class="fas fa-arrow-right"></i></a>
+          </div>
+        `;
+        resultsContainer.appendChild(card);
+      });
+    }
+
+    // Form submission handler
+    document.getElementById('searchForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      const from = document.getElementById('from').value;
+      const country = document.getElementById('country').value;
+      const departure = document.getElementById('departure').value;
+      const ret = document.getElementById('return').value;
+      
+      const resultsContainer = document.getElementById('results');
+      resultsContainer.innerHTML = '';
+      
+      if (!citiesByCountry[country]) {
+        resultsContainer.innerHTML = '<p style="grid-column:1/-1;text-align:center;">Aucune destination disponible pour ce pays.</p>';
+        return;
+      }
+      
+      // Scroll to results
+      document.getElementById('destinations').scrollIntoView({ behavior: 'smooth' });
+      
+      // Display destinations for selected country
+      citiesByCountry[country].forEach(destination => {
+        const price = (Math.random() * 300 + 50).toFixed(2);
+        const duration = Math.floor(Math.random() * 6) + 1;
+        const hasDirect = Math.random() > 0.3;
+        
+        const card = document.createElement('div');
+        card.className = 'destination-card';
+        card.innerHTML = `
+          <img src="${destination.img}" alt="${destination.name}" class="card-img">
+          ${destination.popular ? '<span class="card-badge">Populaire</span>' : ''}
+          <div class="card-content">
+            <h3 class="card-title">${from} → ${destination.name}</h3>
+            <div class="card-details">
+              <span><i class="far fa-clock"></i> ${duration}h</span>
+              <span><i class="fas fa-plane-departure"></i> ${hasDirect ? 'Vol direct' : 'Avec escale'}</span>
+            </div>
+            <div class="card-details">
+              <span><i class="far fa-calendar-alt"></i> Départ: ${formatDate(departure)}</span>
+              <span><i class="far fa-calendar-alt"></i> Retour: ${formatDate(ret)}</span>
+            </div>
+            <div class="card-price">${price}€ <span>aller-retour</span></div>
+            <a href="#" class="card-btn">Réserver maintenant <i class="fas fa-shopping-cart"></i></a>
+          </div>
+        `;
+        resultsContainer.appendChild(card);
+      });
+    });
+    
+    // Helper function to shuffle array
+    function shuffleArray(array) {
+      for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+      }
+      return array;
+    }
+    
+    // Helper function to format date
+    function formatDate(dateString) {
+      const options = { day: 'numeric', month: 'short' };
+      return new Date(dateString).toLocaleDateString('fr-FR', options);
+    }
+  </script>
+</body>
+</html>
