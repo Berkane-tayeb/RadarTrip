@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Redirecting...</title>
+  <script>
+    (function () {
+      // Vérifie si la langue est déjà stockée
+      const storedLang = localStorage.getItem('preferredLang');
+
+      // Si déjà stockée, redirige directement
+      if (storedLang === 'fr' || storedLang === 'en') {
+        window.location.href = `/RadarTrip/${storedLang}/`;
+        return;
+      }
+
+      // Sinon, détecte la langue du navigateur
+      const browserLang = navigator.language || navigator.userLanguage;
+      const preferredLang = browserLang.startsWith('fr') ? 'fr' : 'en';
+
+      // Mémorise la langue détectée
+      localStorage.setItem('preferredLang', preferredLang);
+
+      // Redirige vers la page appropriée
+      window.location.href = `/RadarTrip/${preferredLang}/`;
+    })();
+  </script>
+  <noscript>
+    <meta http-equiv="refresh" content="0;url=/RadarTrip/fr/" />
+  </noscript>
+</head>
+<body>
+  <p>Redirecting to your language...</p>
+</body>
+</html>
