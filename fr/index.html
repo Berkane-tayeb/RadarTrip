@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aventura - Activités de Voyage Exceptionnelles</title>
+    <meta name="description" content="Aventura propose des expériences de voyage uniques et des activités exceptionnelles dans les plus belles destinations du monde">
+    <meta name="keywords" content="voyage, activités, aventure, excursions, tourisme, réservation">
+    <link rel="alternate" hreflang="en" href="https://www.aventura.com/en/" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="../assets/styles.css">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "TravelAgency",
+      "name": "Aventura",
+      "description": "Agence spécialisée dans les expériences de voyage uniques et les activités exceptionnelles",
+      "url": "https://www.aventura.com/fr/",
+      "telephone": "+33 1 23 45 67 89",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Paris",
+        "addressCountry": "FR"
+      }
+    }
+    </script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">Aventura</a>
+                <div class="language-switcher">
+                    <a href="/fr/" class="active" hreflang="fr" lang="fr">FR</a> | 
+                    <a href="/en/" hreflang="en" lang="en">EN</a>
+                </div>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#activities">Activités</a></li>
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" aria-label="Expériences de voyage">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Découvrez des Expériences de Voyage Inoubliables</h1>
+                <p>Explorez le monde avec nos activités exclusives et guides experts</p>
+                <a href="#activities" class="cta-button">Voir nos activités</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="activities" class="activities-booking">
+        <div class="container">
+            <h2>Réservez Vos Activités</h2>
+            
+            <div class="city-selector">
+                <label for="city-search">Recherchez votre destination :</label>
+                <div class="search-container">
+                    <input type="text" id="city-search" list="city-options" placeholder="Ex: Paris, New York..." aria-label="Recherche de destination">
+                    <datalist id="city-options"></datalist>
+                </div>
+                <div class="selected-city" id="selected-city"></div>
+            </div>
+
+            <div class="booking-widget"></div>
+        </div>
+    </section>
+
+    <footer id="about" class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Aventura</h3>
+                    <p>Votre partenaire pour des expériences de voyage exceptionnelles à travers le monde.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Liens rapides</h3>
+                    <ul>
+                        <li><a href="#activities">Activités</a></li>
+                        <li><a href="#about">À propos</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div id="contact" class="footer-col">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><i class="fas fa-envelope" aria-hidden="true"></i> contact@aventura.com</li>
+                        <li><i class="fas fa-phone" aria-hidden="true"></i> +33 1 23 45 67 89</li>
+                        <li><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Paris, France</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Réseaux sociaux</h3>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Aventura. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="../assets/script.js"></script>
+</body>
+</html>

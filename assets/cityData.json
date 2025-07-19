@@ -1,0 +1,249 @@
+[
+    {
+        "id": "paris",
+        "name": {
+            "fr": "Paris, France",
+            "en": "Paris, France"
+        },
+        "keywords": {
+            "fr": ["tour eiffel", "louvre", "champs-élysées", "montmartre", "notre-dame"],
+            "en": ["eiffel tower", "louvre museum", "champs elysees", "montmartre", "notre dame"],
+            "postal": ["75007", "75001", "75008", "75018"]
+        },
+        "widgetUrl": "https://tpwgt.com/content?currency=EUR&trs=424715&shmarker=638937.638937&product=975704%2C1050511%2C1100082%2C1086769%2C1105055%2C1008563%2C1115219%2C1064033%2C1101926&language=en&layout=vertical&powered_by=true&campaign_id=89&promo_id=3948"
+    },
+    {
+        "id": "londres",
+        "name": {
+            "fr": "Londres, Royaume-Uni",
+            "en": "London, UK"
+        },
+        "keywords": {
+            "fr": ["big ben", "tower bridge", "buckingham palace", "london eye", "soho"],
+            "en": ["big ben", "tower bridge", "buckingham palace", "london eye", "soho"],
+            "postal": ["SW1A", "WC2N", "W1D"]
+        },
+        "widgetUrl": "londres"
+    },
+    {
+        "id": "rome",
+        "name": {
+            "fr": "Rome, Italie",
+            "en": "Rome, Italy"
+        },
+        "keywords": {
+            "fr": ["colisée", "vatican", "fontaine de trevi", "pantheon", "trastevere"],
+            "en": ["colosseum", "vatican city", "trevi fountain", "pantheon", "trastevere"],
+            "postal": ["00184", "00120"]
+        },
+        "widgetUrl": "rome"
+    },
+    {
+        "id": "barcelone",
+        "name": {
+            "fr": "Barcelone, Espagne",
+            "en": "Barcelona, Spain"
+        },
+        "keywords": {
+            "fr": ["sagrada familia", "park güell", "ramblas", "barri gòtic"],
+            "en": ["sagrada familia", "park guell", "las ramblas", "gothic quarter"],
+            "postal": ["08001", "08002"]
+        },
+        "widgetUrl": "barcelone"
+    },
+    {
+        "id": "amsterdam",
+        "name": {
+            "fr": "Amsterdam, Pays-Bas",
+            "en": "Amsterdam, Netherlands"
+        },
+        "keywords": {
+            "fr": ["canaux amsterdam", "musée van gogh", "quartier rouge", "vondelpark"],
+            "en": ["amsterdam canals", "van gogh museum", "red light district", "vondelpark"],
+            "postal": ["1012", "1071"]
+        },
+        "widgetUrl": "amesterdame"
+    },
+    {
+        "id": "berlin",
+        "name": {
+            "fr": "Berlin, Allemagne",
+            "en": "Berlin, Germany"
+        },
+        "keywords": {
+            "fr": ["porte de brandebourg", "mur de berlin", "reichstag", "checkpoint charlie"],
+            "en": ["brandenburg gate", "berlin wall", "reichstag", "checkpoint charlie"],
+            "postal": ["10117", "10405"]
+        },
+        "widgetUrl": "berlin"
+    },
+    {
+        "id": "new-york",
+        "name": {
+            "fr": "New York, États-Unis",
+            "en": "New York, USA"
+        },
+        "keywords": {
+            "fr": ["times square", "central park", "statue de la liberté", "brooklyn bridge"],
+            "en": ["times square", "central park", "statue of liberty", "brooklyn bridge"],
+            "postal": ["10018", "10019", "10036"]
+        },
+        "widgetUrl": "new-york"
+    },
+    {
+        "id": "los-angeles",
+        "name": {
+            "fr": "Los Angeles, États-Unis",
+            "en": "Los Angeles, USA"
+        },
+        "keywords": {
+            "fr": ["hollywood", "santa monica", "venice beach", "universal studios"],
+            "en": ["hollywood", "santa monica", "venice beach", "universal studios"],
+            "postal": ["90028", "90401"]
+        },
+        "widgetUrl": "los-angeles"
+    },
+    {
+        "id": "toronto",
+        "name": {
+            "fr": "Toronto, Canada",
+            "en": "Toronto, Canada"
+        },
+        "keywords": {
+            "fr": ["tour cn", "quartier distillery", "harbourfront", "kensington market"],
+            "en": ["cn tower", "distillery district", "harbourfront", "kensington market"],
+            "postal": ["M5V", "M5A"]
+        },
+        "widgetUrl": "toronto"
+    },
+    {
+        "id": "rio-de-janeiro",
+        "name": {
+            "fr": "Rio de Janeiro, Brésil",
+            "en": "Rio de Janeiro, Brazil"
+        },
+        "keywords": {
+            "fr": ["christ rédempteur", "copacabana", "sugarloaf", "carnaval de rio"],
+            "en": ["christ the redeemer", "copacabana beach", "sugarloaf mountain", "rio carnival"],
+            "postal": ["22020", "22021"]
+        },
+        "widgetUrl": "paris"
+    },
+    {
+        "id": "buenos-aires",
+        "name": {
+            "fr": "Buenos Aires, Argentine",
+            "en": "Buenos Aires, Argentina"
+        },
+        "keywords": {
+            "fr": ["la boca", "recoleta", "palermo", "tango"],
+            "en": ["la boca", "recoleta", "palermo", "tango"],
+            "postal": ["C1063", "C1127"]
+        },
+        "widgetUrl": "paris"
+    },
+    {
+        "id": "tokyo",
+        "name": {
+            "fr": "Tokyo, Japon",
+            "en": "Tokyo, Japan"
+        },
+        "keywords": {
+            "fr": ["shibuya crossing", "shinjuku", "asakusa", "harajuku"],
+            "en": ["shibuya crossing", "shinjuku", "asakusa", "harajuku"],
+            "postal": ["150-0043", "160-0022"]
+        },
+        "widgetUrl": "paris"
+    },
+    {
+        "id": "kyoto",
+        "name": {
+            "fr": "Kyoto, Japon",
+            "en": "Kyoto, Japan"
+        },
+        "keywords": {
+            "fr": ["temple kinkaku-ji", "quartier gion", "bambous d'arashiyama"],
+            "en": ["kinkaku-ji temple", "gion district", "arashiyama bamboo"],
+            "postal": ["605-0000", "600-0000"]
+        },
+        "widgetUrl": "paris"
+    },
+    {
+        "id": "hong-kong",
+        "name": {
+            "fr": "Hong Kong, Chine",
+            "en": "Hong Kong, China"
+        },
+        "keywords": {
+            "fr": ["victoria peak", "temple wong tai sin", "star ferry"],
+            "en": ["victoria peak", "wong tai sin temple", "star ferry"],
+            "postal": ["999077"]
+        },
+        "widgetUrl": "paris"
+    },
+    {
+        "id": "sydney",
+        "name": {
+            "fr": "Sydney, Australie",
+            "en": "Sydney, Australia"
+        },
+        "keywords": {
+            "fr": ["opéra de sydney", "harbour bridge", "bondi beach"],
+            "en": ["sydney opera house", "harbour bridge", "bondi beach"],
+            "postal": ["2000"]
+        },
+        "widgetUrl": "paris"
+    },
+    {
+        "id": "marrakech",
+        "name": {
+            "fr": "Marrakech, Maroc",
+            "en": "Marrakech, Morocco"
+        },
+        "keywords": {
+            "fr": ["place jemaa el-fna", "souk marrakech", "jardin majorelle"],
+            "en": ["jemaa el-fna square", "marrakech souk", "majorelle garden"],
+            "postal": ["40000"]
+        },
+        "widgetUrl": "paris"
+    },
+    {
+        "id": "prague",
+        "name": {
+            "fr": "Prague, République Tchèque",
+            "en": "Prague, Czech Republic"
+        },
+        "keywords": {
+            "fr": ["château de prague", "pont charles", "horloge astronomique"],
+            "en": ["prague castle", "charles bridge", "astronomical clock"],
+            "postal": ["110 00"]
+        },
+        "widgetUrl": "paris"
+    },
+    {
+        "id": "vienne",
+        "name": {
+            "fr": "Vienne, Autriche",
+            "en": "Vienna, Austria"
+        },
+        "keywords": {
+            "fr": ["palais schönbrunn", "opéra de vienne", "prater"],
+            "en": ["schoenbrunn palace", "vienna opera", "prater"],
+            "postal": ["1010"]
+        },
+        "widgetUrl": "paris"
+    },
+    {
+        "id": "bangkok",
+        "name": {
+            "fr": "Bangkok, Thaïlande",
+            "en": "Bangkok, Thailand"
+        },
+        "keywords": {
+            "fr": ["grand palais", "wat arun", "chatuchak"],
+            "en": ["grand palace", "wat arun", "chatuchak"],
+            "postal": ["10200"]
+        },
+        "widgetUrl": "paris"
+    }
+]
