@@ -26,28 +26,45 @@
     </script>
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <nav class="navbar">
-                <a href="#" class="logo">Aventura</a>
-                <div class="language-switcher">
-                    <a href="/RadarTrip/fr/" hreflang="fr" lang="fr" onclick="localStorage.setItem('preferredLang', 'fr')">FR</a> | 
-                    <a href="/RadarTrip/en/" class="active" hreflang="en" lang="en" onclick="localStorage.setItem('preferredLang', 'en')">EN</a>
-                </div>
-                <div class="menu-toggle" id="mobile-menu">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
-                <ul class="nav-links" id="nav-links">
-                    <li><a href="#activities">Activities</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+<header class="header">
+    <div class="container">
+        <nav class="navbar">
+            <a href="#" class="logo">Aventura</a>
+            
+            <!-- Sélecteur desktop -->
+            <div class="language-switcher desktop-only">
+                <a href="/RadarTrip/fr/" hreflang="fr" lang="fr" onclick="localStorage.setItem('preferredLang', 'fr')">FR</a> | 
+                <a href="/RadarTrip/en/" class="active" hreflang="en" lang="en" onclick="localStorage.setItem('preferredLang', 'en')">EN</a>
+            </div>
+            
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#activities">Activities</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                
+                <!-- Sélecteur mobile -->
+                <li class="mobile-language-switcher">
+                    <a href="/RadarTrip/fr/" hreflang="fr" lang="fr" onclick="localStorage.setItem('preferredLang', 'fr')">
+                        <img src="https://flagcdn.com/w20/fr.png" srcset="https://flagcdn.com/w40/fr.png 2x" width="20" alt="French" class="language-flag">
+                        Français
+                    </a>
+                    <a href="/RadarTrip/en/" class="active" hreflang="en" lang="en" onclick="localStorage.setItem('preferredLang', 'en')">
+                        <img src="https://flagcdn.com/w20/gb.png" srcset="https://flagcdn.com/w40/gb.png 2x" width="20" alt="English" class="language-flag">
+                        English
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
 
+    <!-- Le reste du contenu HTML reste inchangé -->
     <section class="hero" aria-label="Travel experiences">
         <div class="container">
             <div class="hero-content">

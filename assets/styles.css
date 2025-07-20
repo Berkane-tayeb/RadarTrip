@@ -115,6 +115,7 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 .logo {
@@ -126,6 +127,7 @@ p {
 .nav-links {
     display: flex;
     gap: var(--space-lg);
+    order: 2;
 }
 
 .nav-links a {
@@ -150,11 +152,19 @@ p {
 }
 
 /* Sélecteur de langue */
+/* Sélecteur de langue desktop */
+.language-switcher.desktop-only {
+    position: static; /* Retire le positionnement absolu */
+    margin-left: auto; /* Pousse le sélecteur à droite */
+    margin-right: var(--space-lg); /* Espace avant le menu */
+    order: 1; /* S'assure qu'il est avant le menu toggle */
+}
+
+.mobile-language-switcher {
+    display: none;
+}
+
 .language-switcher {
-    position: absolute;
-    right: var(--space-md);
-    top: 50%;
-    transform: translateY(-50%);
     color: white;
     font-size: 0.9rem;
 }
@@ -166,6 +176,38 @@ p {
 .language-switcher a.active {
     font-weight: bold;
     text-decoration: underline;
+}
+
+.mobile-language-switcher {
+    display: none;
+    flex-direction: column;
+    gap: var(--space-sm);
+    padding: var(--space-md) 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: var(--space-sm);
+}
+
+.mobile-language-switcher a {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    padding: var(--space-xs) var(--space-sm);
+    border-radius: var(--border-radius);
+    transition: background-color 0.3s ease;
+}
+
+.mobile-language-switcher a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.mobile-language-switcher a.active {
+    background-color: rgba(255, 255, 255, 0.2);
+    font-weight: bold;
+}
+
+.language-flag {
+    border-radius: 2px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
 }
 
 /* Menu mobile */
@@ -182,6 +224,22 @@ p {
     background-color: white;
     margin: 3px 0;
     transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    /* Styles existants pour le mobile... */
+    
+    .language-switcher.desktop-only {
+        display: none; /* Cache le sélecteur desktop sur mobile */
+    }
+    
+    .mobile-language-switcher {
+        display: flex; /* Affiche le sélecteur mobile */
+    }
+    
+    .nav-links {
+        order: initial; /* Réinitialise l'ordre pour mobile */
+    }
 }
 
 /* =====================
@@ -472,34 +530,46 @@ p {
         position: fixed;
         top: 70px;
         left: -100%;
-        width: 100%;
+        width: 80%;
+        max-width: 300px;
         height: calc(100vh - 70px);
-        background-color: white;
+        background-color: var(--dark-color);
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: var(--space-lg);
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 0;
+        padding: var(--space-md);
         transition: all 0.5s ease;
+        box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
     }
 
     .nav-links.active {
         left: 0;
     }
 
+    .nav-links li {
+        width: 100%;
+    }
+
+    .nav-links li:not(.mobile-language-switcher) {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
     .nav-links a {
-        color: var(--dark-color);
-        font-size: 1.2rem;
+        color: white;
+        font-size: 1.1rem;
+        padding: var(--space-sm) 0;
+        display: block;
+        width: 100%;
     }
 
-    .language-switcher {
-        position: static;
-        order: -1;
-        margin-bottom: var(--space-md);
-        color: var(--dark-color);
+    .language-switcher.desktop-only {
+        display: none;
     }
 
-    .language-switcher a {
-        color: var(--dark-color);
+    .mobile-language-switcher {
+        display: flex;
+        width: 100%;
     }
 
     .hero {
