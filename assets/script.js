@@ -100,52 +100,52 @@ document.addEventListener('DOMContentLoaded', async function() {
 
     // Initialize city search system
     function initCitySearch() {
-        const searchInput = document.getElementById('city-search');
-        const datalist = document.getElementById('city-options');
-        const selectedCityDisplay = document.getElementById('selected-city');
+    const searchInput = document.getElementById('city-search');
+    const datalist = document.getElementById('city-options');
+    const selectedCityDisplay = document.getElementById('selected-city');
+    const searchBtn = document.getElementById('search-btn');
 
-        if (!searchInput || !datalist || !selectedCityDisplay) return;
+    if (!searchInput || !datalist || !selectedCityDisplay || !searchBtn) return;
 
-        // Set localized placeholder and label
-        searchInput.placeholder = translations.searchPlaceholder[currentLang];
-        const label = document.querySelector('.city-selector label');
-        if (label) {
-            label.textContent = translations.searchLabel[currentLang];
+    // Set localized placeholder and label
+    searchInput.placeholder = translations.searchPlaceholder[currentLang];
+    const label = document.querySelector('.city-selector label');
+    if (label) {
+        label.textContent = translations.searchLabel[currentLang];
+    }
+
+    // Remplir la datalist
+    cityData.forEach(city => {
+        const option = document.createElement('option');
+        option.value = city.name[currentLang] || city.name.fr;
+        option.dataset.id = city.id;
+        datalist.appendChild(option);
+    });
+
+    // Afficher la ville correspondante au fur et à mesure (optionnel)
+    searchInput.addEventListener('input', function () {
+        const inputValue = this.value.trim().toLowerCase();
+        const matchedCity = findCityMatch(inputValue);
+        if (matchedCity) {
+        const cityName = matchedCity.name[currentLang] || matchedCity.name.fr;
+        selectedCityDisplay.textContent = `${translations.activitiesAvailable[currentLang]} ${cityName}`;
+        } else {
+        selectedCityDisplay.textContent = '';
         }
+    });
 
-        console.log("city data :", cityData);
+    // Lancer la recherche uniquement au clic sur le bouton
+    searchBtn.addEventListener('click', () => {
+        const inputValue = searchInput.value.trim().toLowerCase();
+        const matchedCity = findCityMatch(inputValue);
+        if (matchedCity) {
+        loadActivitiesForCity(matchedCity);
+        } else {
+        selectedCityDisplay.textContent = translations.cityNotFound[currentLang] || "City not found.";
+        }
+    });
 
-        // Populate datalist with city options
-        cityData.forEach(city => {
-            const option = document.createElement('option');
-            option.value = city.name[currentLang] || city.name.fr;
-            option.dataset.id = city.id;
-            datalist.appendChild(option);
-        });
-
-        // Handle city search input
-        searchInput.addEventListener('input', function() {
-            const inputValue = this.value.trim().toLowerCase();
-            
-            if (inputValue.length >= 2) {
-                const matchedCity = findCityMatch(inputValue);
-                
-                if (matchedCity) {
-                    const cityName = matchedCity.name[currentLang] || matchedCity.name.fr;
-                    selectedCityDisplay.textContent = `${translations.activitiesAvailable[currentLang]} ${cityName}`;
-                    
-                    // Load activities for this city
-                    loadActivitiesForCity(matchedCity);
-                } else {
-                    selectedCityDisplay.textContent = '';
-                }
-            } else {
-                selectedCityDisplay.textContent = '';
-            }
-        });
-
-        // Check for location from URL parameters
-        detectFromURL();
+    detectFromURL();
     }
 
     // Find city match based on search input

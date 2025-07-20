@@ -62,14 +62,23 @@
         <div class="container">
             <h2>Book Your Activities</h2>
             
-            <div class="city-selector">
-                <label for="city-search">Search your destination:</label>
-                <div class="search-container">
-                    <input type="text" id="city-search" list="city-options" placeholder="Ex: Paris, New York..." aria-label="Destination search">
-                    <datalist id="city-options"></datalist>
-                </div>
-                <div class="selected-city" id="selected-city"></div>
-            </div>
+    <div class="city-selector">
+    <label for="city-search">Search your destination:</label>
+    <div class="search-container">
+        <input
+            type="text"
+            id="city-search"
+            list="city-options"
+            placeholder="Ex: Paris, New York..."
+            aria-label="Destination search"
+        />
+        <button id="search-btn" aria-label="Search">
+            🔍
+        </button>
+        <datalist id="city-options"></datalist>
+    </div>
+    <div class="selected-city" id="selected-city"></div>
+    </div>
 
             <div class="booking-widget"></div>
         </div>

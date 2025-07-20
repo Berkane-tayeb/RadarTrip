@@ -65,7 +65,16 @@
             <div class="city-selector">
                 <label for="city-search">Recherchez votre destination :</label>
                 <div class="search-container">
-                    <input type="text" id="city-search" list="city-options" placeholder="Ex: Paris, New York..." aria-label="Recherche de destination">
+                    <input
+                        type="text"
+                        id="city-search"
+                        list="city-options"
+                        placeholder="Ex: Paris, New York..."
+                        aria-label="Destination search"
+                    />
+                    <button id="search-btn" aria-label="Search">
+                        🔍
+                    </button>
                     <datalist id="city-options"></datalist>
                 </div>
                 <div class="selected-city" id="selected-city"></div>
