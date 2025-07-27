@@ -192,12 +192,13 @@ document.addEventListener('DOMContentLoaded', async function() {
    function loadActivitiesForCity(city) {
         console.log(`Loading activities for city: ${city} (${currentLang})`);
         // URL du widget à insérer (tu peux en avoir différentes selon la ville)
-        const scriptWidgetUrl = city.widgetUrl;
-        insertBookingWidget(scriptWidgetUrl);
+        const cityId = city.cityId;
+        insertBookingWidget(cityId);
     }
 
     // Fonction qui insère dynamiquement le widget
-    function insertBookingWidget(scriptUrl) {
+    function insertBookingWidget(cityId) {
+        const widgetUrl = `https://tpwgt.com/content?currency=EUR&trs=424715&shmarker=638937.638937&language=${currentLang}&locale=${cityId}&layout=responsive&cards=14&powered_by=true&campaign_id=89&promo_id=3947`;
         // 1. Sélectionner la div existante
         const container = document.querySelector('.booking-widget');
         if (!container) return;
@@ -209,7 +210,7 @@ document.addEventListener('DOMContentLoaded', async function() {
         // 3. Créer le script
         const scriptElement = document.createElement('script');
         scriptElement.async = true;
-        scriptElement.src = scriptUrl;
+        scriptElement.src = widgetUrl;
         scriptElement.charset = 'utf-8';
 
         // 4. Ajouter le script dans la div

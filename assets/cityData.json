@@ -10,46 +10,111 @@
             "en": ["eiffel tower", "louvre museum", "champs elysees", "montmartre", "notre dame"],
             "postal": ["75007", "75001", "75008", "75018"]
         },
-        "widgetUrl": "https://tpwgt.com/content?currency=EUR&trs=424715&shmarker=638937.638937&product=975704%2C1050511%2C1100082%2C1086769%2C1105055%2C1008563%2C1115219%2C1064033%2C1101926&language=en&layout=vertical&powered_by=true&campaign_id=89&promo_id=3948"
+        "cityId": "66746"
     },
     {
-        "id": "londres",
+        "id": "aarhus",
         "name": {
-            "fr": "Londres, Royaume-Uni",
-            "en": "London, UK"
+            "fr": "Aarhus, Danemark",
+            "en": "Aarhus, Denmark"
         },
         "keywords": {
-            "fr": ["big ben", "tower bridge", "buckingham palace", "london eye", "soho"],
-            "en": ["big ben", "tower bridge", "buckingham palace", "london eye", "soho"],
-            "postal": ["SW1A", "WC2N", "W1D"]
+            "fr": ["ARoS", "musée Moesgaard", "vieille ville"],
+            "en": ["ARoS museum", "Moesgaard Museum", "old town"],
+            "postal": ["8000", "8100"]
         },
-        "widgetUrl": "londres"
+        "cityId": "65338"
     },
     {
-        "id": "rome",
+        "id": "abu-dhabi",
         "name": {
-            "fr": "Rome, Italie",
-            "en": "Rome, Italy"
+            "fr": "Abou Dabi, Émirats Arabes Unis",
+            "en": "Abu Dhabi, United Arab Emirates"
         },
         "keywords": {
-            "fr": ["colisée", "vatican", "fontaine de trevi", "pantheon", "trastevere"],
-            "en": ["colosseum", "vatican city", "trevi fountain", "pantheon", "trastevere"],
-            "postal": ["00184", "00120"]
+            "fr": ["mosquée Sheikh Zayed", "Louvre Abu Dhabi", "Corniche"],
+            "en": ["Sheikh Zayed Mosque", "Louvre Abu Dhabi", "Corniche"],
+            "postal": []
         },
-        "widgetUrl": "rome"
+        "cityId": "60013"
     },
     {
-        "id": "barcelone",
+        "id": "akureyri",
         "name": {
-            "fr": "Barcelone, Espagne",
-            "en": "Barcelona, Spain"
+            "fr": "Akureyri, Islande",
+            "en": "Akureyri, Iceland"
         },
         "keywords": {
-            "fr": ["sagrada familia", "park güell", "ramblas", "barri gòtic"],
-            "en": ["sagrada familia", "park guell", "las ramblas", "gothic quarter"],
-            "postal": ["08001", "08002"]
+            "fr": ["jardin botanique", "fjord Eyjafjörður"],
+            "en": ["botanical garden", "Eyjafjörður fjord"],
+            "postal": ["600", "603"]
         },
-        "widgetUrl": "barcelone"
+        "cityId": "71389"
+    },
+    {
+        "id": "albufeira",
+        "name": {
+            "fr": "Albufeira, Portugal",
+            "en": "Albufeira, Portugal"
+        },
+        "keywords": {
+            "fr": ["Algarve", "plages", "vieille ville"],
+            "en": ["Algarve", "beaches", "old town"],
+            "postal": ["8200"]
+        },
+        "cityId": "76558"
+    },
+    {
+        "id": "alicante",
+        "name": {
+            "fr": "Alicante, Espagne",
+            "en": "Alicante, Spain"
+        },
+        "keywords": {
+            "fr": ["château Santa Bárbara", "plage Postiguet"],
+            "en": ["Santa Bárbara Castle", "Postiguet Beach"],
+            "postal": ["03001", "03002"]
+        },
+        "cityId": "66088"
+    },
+    {
+        "id": "alphen-aan-den-rijn",
+        "name": {
+            "fr": "Alphen aan den Rijn, Pays-Bas",
+            "en": "Alphen aan den Rijn, Netherlands"
+        },
+        "keywords": {
+            "fr": ["Archeon", "parc Vogelpark Avifauna"],
+            "en": ["Archeon", "Avifauna Bird Park"],
+            "postal": ["2400"]
+        },
+        "cityId": "75064"
+    },
+    {
+        "id": "amboise",
+        "name": {
+            "fr": "Amboise, France",
+            "en": "Amboise, France"
+        },
+        "keywords": {
+            "fr": ["château d'Amboise", "Léonard de Vinci"],
+            "en": ["Amboise Castle", "Leonardo da Vinci"],
+            "postal": ["37400"]
+        },
+        "cityId": "97582"
+    },
+    {
+        "id": "amneville",
+        "name": {
+            "fr": "Amnéville, France",
+            "en": "Amnéville, France"
+        },
+        "keywords": {
+            "fr": ["Thermapolis", "zoo d'Amnéville"],
+            "en": ["Thermapolis", "Amnéville Zoo"],
+            "postal": ["57360"]
+        },
+        "cityId": "97579"
     },
     {
         "id": "amsterdam",
@@ -58,180 +123,245 @@
             "en": "Amsterdam, Netherlands"
         },
         "keywords": {
-            "fr": ["canaux amsterdam", "musée van gogh", "quartier rouge", "vondelpark"],
-            "en": ["amsterdam canals", "van gogh museum", "red light district", "vondelpark"],
+            "fr": ["canaux", "Rijksmuseum", "Van Gogh Museum"],
+            "en": ["canals", "Rijksmuseum", "Van Gogh Museum"],
             "postal": ["1012", "1071"]
         },
-        "widgetUrl": "amesterdame"
+        "cityId": "75061"
     },
     {
-        "id": "berlin",
+        "id": "angers",
         "name": {
-            "fr": "Berlin, Allemagne",
-            "en": "Berlin, Germany"
+            "fr": "Angers, France",
+            "en": "Angers, France"
         },
         "keywords": {
-            "fr": ["porte de brandebourg", "mur de berlin", "reichstag", "checkpoint charlie"],
-            "en": ["brandenburg gate", "berlin wall", "reichstag", "checkpoint charlie"],
-            "postal": ["10117", "10405"]
+            "fr": ["château d'Angers", "tapisserie de l'Apocalypse"],
+            "en": ["Angers Castle", "Apocalypse Tapestry"],
+            "postal": ["49000"]
         },
-        "widgetUrl": "berlin"
+        "cityId": "67158"
     },
     {
-        "id": "new-york",
+        "id": "antalya",
         "name": {
-            "fr": "New York, États-Unis",
-            "en": "New York, USA"
+            "fr": "Antalya, Turquie",
+            "en": "Antalya, Turkey"
         },
         "keywords": {
-            "fr": ["times square", "central park", "statue de la liberté", "brooklyn bridge"],
-            "en": ["times square", "central park", "statue of liberty", "brooklyn bridge"],
-            "postal": ["10018", "10019", "10036"]
+            "fr": ["vieille ville", "chutes de Düden", "plages"],
+            "en": ["old town", "Düden Waterfalls", "beaches"],
+            "postal": ["07000"]
         },
-        "widgetUrl": "new-york"
+        "cityId": "78987"
     },
     {
-        "id": "los-angeles",
+        "id": "antigua-guatemala",
         "name": {
-            "fr": "Los Angeles, États-Unis",
-            "en": "Los Angeles, USA"
+            "fr": "Antigua Guatemala, Guatemala",
+            "en": "Antigua Guatemala, Guatemala"
         },
         "keywords": {
-            "fr": ["hollywood", "santa monica", "venice beach", "universal studios"],
-            "en": ["hollywood", "santa monica", "venice beach", "universal studios"],
-            "postal": ["90028", "90401"]
+            "fr": ["volcan Agua", "architecture coloniale"],
+            "en": ["Agua Volcano", "colonial architecture"],
+            "postal": ["03001"]
         },
-        "widgetUrl": "los-angeles"
+        "cityId": "68016"
     },
     {
-        "id": "toronto",
+        "id": "antwerp",
         "name": {
-            "fr": "Toronto, Canada",
-            "en": "Toronto, Canada"
+            "fr": "Anvers, Belgique",
+            "en": "Antwerp, Belgium"
         },
         "keywords": {
-            "fr": ["tour cn", "quartier distillery", "harbourfront", "kensington market"],
-            "en": ["cn tower", "distillery district", "harbourfront", "kensington market"],
-            "postal": ["M5V", "M5A"]
+            "fr": ["cathédrale Notre-Dame", "Rubens", "diamants"],
+            "en": ["Cathedral of Our Lady", "Rubens", "diamonds"],
+            "postal": ["2000", "2018"]
         },
-        "widgetUrl": "toronto"
+        "cityId": "60863"
     },
     {
-        "id": "rio-de-janeiro",
+        "id": "aosta",
         "name": {
-            "fr": "Rio de Janeiro, Brésil",
-            "en": "Rio de Janeiro, Brazil"
+            "fr": "Aoste, Italie",
+            "en": "Aosta, Italy"
         },
         "keywords": {
-            "fr": ["christ rédempteur", "copacabana", "sugarloaf", "carnaval de rio"],
-            "en": ["christ the redeemer", "copacabana beach", "sugarloaf mountain", "rio carnival"],
-            "postal": ["22020", "22021"]
+            "fr": ["Arc d'Auguste", "vallée d'Aoste"],
+            "en": ["Arch of Augustus", "Aosta Valley"],
+            "postal": ["11100"]
         },
-        "widgetUrl": "paris"
+        "cityId": "72022"
     },
     {
-        "id": "buenos-aires",
+        "id": "apeldoorn",
         "name": {
-            "fr": "Buenos Aires, Argentine",
-            "en": "Buenos Aires, Argentina"
+            "fr": "Apeldoorn, Pays-Bas",
+            "en": "Apeldoorn, Netherlands"
         },
         "keywords": {
-            "fr": ["la boca", "recoleta", "palermo", "tango"],
-            "en": ["la boca", "recoleta", "palermo", "tango"],
-            "postal": ["C1063", "C1127"]
+            "fr": ["palais Het Loo", "Apenheul"],
+            "en": ["Het Loo Palace", "Apenheul primate park"],
+            "postal": ["7300"]
         },
-        "widgetUrl": "paris"
+        "cityId": "75059"
     },
     {
-        "id": "tokyo",
+        "id": "arequipa",
         "name": {
-            "fr": "Tokyo, Japon",
-            "en": "Tokyo, Japan"
+            "fr": "Arequipa, Pérou",
+            "en": "Arequipa, Peru"
         },
         "keywords": {
-            "fr": ["shibuya crossing", "shinjuku", "asakusa", "harajuku"],
-            "en": ["shibuya crossing", "shinjuku", "asakusa", "harajuku"],
-            "postal": ["150-0043", "160-0022"]
+            "fr": ["couvent Santa Catalina", "volcan Misti"],
+            "en": ["Santa Catalina Monastery", "Misti Volcano"],
+            "postal": ["04000"]
         },
-        "widgetUrl": "paris"
+        "cityId": "75334"
     },
     {
-        "id": "kyoto",
+        "id": "arnhem",
         "name": {
-            "fr": "Kyoto, Japon",
-            "en": "Kyoto, Japan"
+            "fr": "Arnhem, Pays-Bas",
+            "en": "Arnhem, Netherlands"
         },
         "keywords": {
-            "fr": ["temple kinkaku-ji", "quartier gion", "bambous d'arashiyama"],
-            "en": ["kinkaku-ji temple", "gion district", "arashiyama bamboo"],
-            "postal": ["605-0000", "600-0000"]
+            "fr": ["musée en plein air", "pont John Frost"],
+            "en": ["open-air museum", "John Frost Bridge"],
+            "postal": ["6800"]
         },
-        "widgetUrl": "paris"
+        "cityId": "75058"
     },
     {
-        "id": "hong-kong",
+        "id": "astorga",
         "name": {
-            "fr": "Hong Kong, Chine",
-            "en": "Hong Kong, China"
+            "fr": "Astorga, Espagne",
+            "en": "Astorga, Spain"
         },
         "keywords": {
-            "fr": ["victoria peak", "temple wong tai sin", "star ferry"],
-            "en": ["victoria peak", "wong tai sin temple", "star ferry"],
-            "postal": ["999077"]
+            "fr": ["palais épiscopal", "chemin de Saint-Jacques"],
+            "en": ["Bishop's Palace", "Way of St. James"],
+            "postal": ["24700"]
         },
-        "widgetUrl": "paris"
+        "cityId": "95315"
     },
     {
-        "id": "sydney",
+        "id": "athens",
         "name": {
-            "fr": "Sydney, Australie",
-            "en": "Sydney, Australia"
+            "fr": "Athènes, Grèce",
+            "en": "Athens, Greece"
         },
         "keywords": {
-            "fr": ["opéra de sydney", "harbour bridge", "bondi beach"],
-            "en": ["sydney opera house", "harbour bridge", "bondi beach"],
-            "postal": ["2000"]
+            "fr": ["Acropole", "Parthénon", "Plaka"],
+            "en": ["Acropolis", "Parthenon", "Plaka"],
+            "postal": ["105 57", "105 58"]
         },
-        "widgetUrl": "paris"
+        "cityId": "99239"
     },
     {
-        "id": "marrakech",
+        "id": "atlanta",
         "name": {
-            "fr": "Marrakech, Maroc",
-            "en": "Marrakech, Morocco"
+            "fr": "Atlanta, États-Unis",
+            "en": "Atlanta, United States"
         },
         "keywords": {
-            "fr": ["place jemaa el-fna", "souk marrakech", "jardin majorelle"],
-            "en": ["jemaa el-fna square", "marrakech souk", "majorelle garden"],
-            "postal": ["40000"]
+            "fr": ["CNN Center", "Georgia Aquarium"],
+            "en": ["CNN Center", "Georgia Aquarium"],
+            "postal": ["30303"]
         },
-        "widgetUrl": "paris"
+        "cityId": "79980"
     },
     {
-        "id": "prague",
+        "id": "auburn-hills",
         "name": {
-            "fr": "Prague, République Tchèque",
-            "en": "Prague, Czech Republic"
+            "fr": "Auburn Hills, États-Unis",
+            "en": "Auburn Hills, United States"
         },
         "keywords": {
-            "fr": ["château de prague", "pont charles", "horloge astronomique"],
-            "en": ["prague castle", "charles bridge", "astronomical clock"],
-            "postal": ["110 00"]
+            "fr": ["The Palace of Auburn Hills"],
+            "en": ["The Palace of Auburn Hills"],
+            "postal": ["48326"]
         },
-        "widgetUrl": "paris"
+        "cityId": "80986"
     },
     {
-        "id": "vienne",
+        "id": "avignon",
         "name": {
-            "fr": "Vienne, Autriche",
-            "en": "Vienna, Austria"
+            "fr": "Avignon, France",
+            "en": "Avignon, France"
         },
         "keywords": {
-            "fr": ["palais schönbrunn", "opéra de vienne", "prater"],
-            "en": ["schoenbrunn palace", "vienna opera", "prater"],
-            "postal": ["1010"]
+            "fr": ["palais des Papes", "pont d'Avignon"],
+            "en": ["Palace of the Popes", "Avignon Bridge"],
+            "postal": ["84000"]
         },
-        "widgetUrl": "paris"
+        "cityId": "184100"
+    },
+    {
+        "id": "ayutthaya",
+        "name": {
+            "fr": "Ayutthaya, Thaïlande",
+            "en": "Ayutthaya, Thailand"
+        },
+        "keywords": {
+            "fr": ["parc historique", "temples"],
+            "en": ["historical park", "temples"],
+            "postal": ["13000"]
+        },
+        "cityId": "78545"
+    },
+    {
+        "id": "bakewell",
+        "name": {
+            "fr": "Bakewell, Royaume-Uni",
+            "en": "Bakewell, United Kingdom"
+        },
+        "keywords": {
+            "fr": ["pudding de Bakewell"],
+            "en": ["Bakewell pudding"],
+            "postal": ["DE45"]
+        },
+        "cityId": "186855"
+    },
+    {
+        "id": "balchik",
+        "name": {
+            "fr": "Balchik, Bulgarie",
+            "en": "Balchik, Bulgaria"
+        },
+        "keywords": {
+            "fr": ["palais de Balchik", "jardin botanique"],
+            "en": ["Balchik Palace", "botanical garden"],
+            "postal": ["9600"]
+        },
+        "cityId": "85333"
+    },
+    {
+        "id": "baltimore",
+        "name": {
+            "fr": "Baltimore, États-Unis",
+            "en": "Baltimore, United States"
+        },
+        "keywords": {
+            "fr": ["Inner Harbor", "National Aquarium"],
+            "en": ["Inner Harbor", "National Aquarium"],
+            "postal": ["21202"]
+        },
+        "cityId": "80176"
+    },
+    {
+        "id": "banff",
+        "name": {
+            "fr": "Banff, Canada",
+            "en": "Banff, Canada"
+        },
+        "keywords": {
+            "fr": ["parc national Banff", "montagnes Rocheuses"],
+            "en": ["Banff National Park", "Rocky Mountains"],
+            "postal": ["T1L"]
+        },
+        "cityId": "87579"
     },
     {
         "id": "bangkok",
@@ -240,10 +370,5015 @@
             "en": "Bangkok, Thailand"
         },
         "keywords": {
-            "fr": ["grand palais", "wat arun", "chatuchak"],
-            "en": ["grand palace", "wat arun", "chatuchak"],
+            "fr": ["Grand Palais", "Wat Arun", "Wat Pho"],
+            "en": ["Grand Palace", "Wat Arun", "Wat Pho"],
             "postal": ["10200"]
         },
-        "widgetUrl": "paris"
+        "cityId": "78586"
+    },
+    {
+        "id": "barcelona",
+        "name": {
+            "fr": "Barcelone, Espagne",
+            "en": "Barcelona, Spain"
+        },
+        "keywords": {
+            "fr": ["Sagrada Família", "Park Güell", "Las Ramblas"],
+            "en": ["Sagrada Família", "Park Güell", "Las Ramblas"],
+            "postal": ["08001", "08002"]
+        },
+        "cityId": "66342"
+    },
+    {
+        "id": "bari",
+        "name": {
+            "fr": "Bari, Italie",
+            "en": "Bari, Italy"
+        },
+        "keywords": {
+            "fr": ["basilique Saint-Nicolas", "vieille ville"],
+            "en": ["Basilica of Saint Nicholas", "old town"],
+            "postal": ["70121"]
+        },
+        "cityId": "210005"
+    },
+    {
+        "id": "bariloche",
+        "name": {
+            "fr": "Bariloche, Argentine",
+            "en": "Bariloche, Argentina"
+        },
+        "keywords": {
+            "fr": ["lac Nahuel Huapi", "chocolat"],
+            "en": ["Nahuel Huapi Lake", "chocolate"],
+            "postal": ["8400"]
+        },
+        "cityId": "60331"
+    },
+    {
+        "id": "bath",
+        "name": {
+            "fr": "Bath, Royaume-Uni",
+            "en": "Bath, United Kingdom"
+        },
+        "keywords": {
+            "fr": ["thermes romains", "Royal Crescent"],
+            "en": ["Roman Baths", "Royal Crescent"],
+            "postal": ["BA1"]
+        },
+        "cityId": "67623"
+    },
+    {
+        "id": "belfast",
+        "name": {
+            "fr": "Belfast, Royaume-Uni",
+            "en": "Belfast, United Kingdom"
+        },
+        "keywords": {
+            "fr": ["musée du Titanic", "château de Belfast"],
+            "en": ["Titanic Museum", "Belfast Castle"],
+            "postal": ["BT1"]
+        },
+        "cityId": "67614"
+    },
+    {
+        "id": "benalmadena",
+        "name": {
+            "fr": "Benalmádena, Espagne",
+            "en": "Benalmádena, Spain"
+        },
+        "keywords": {
+            "fr": ["plages", "marina", "parc aquatique"],
+            "en": ["beaches", "marina", "aquatic park"],
+            "postal": ["29630"]
+        },
+        "cityId": "66061"
+    },
+    {
+        "id": "benidorm",
+        "name": {
+            "fr": "Benidorm, Espagne",
+            "en": "Benidorm, Spain"
+        },
+        "keywords": {
+            "fr": ["gratte-ciel", "plages", "vie nocturne"],
+            "en": ["skyscrapers", "beaches", "nightlife"],
+            "postal": ["03501"]
+        },
+        "cityId": "66059"
+    },
+    {
+        "id": "bergamo",
+        "name": {
+            "fr": "Bergame, Italie",
+            "en": "Bergamo, Italy"
+        },
+        "keywords": {
+            "fr": ["vieille ville", "Città Alta"],
+            "en": ["old town", "Città Alta"],
+            "postal": ["24121"]
+        },
+        "cityId": "71991"
+    },
+    {
+        "id": "berlin",
+        "name": {
+            "fr": "Berlin, Allemagne",
+            "en": "Berlin, Germany"
+        },
+        "keywords": {
+            "fr": ["porte de Brandebourg", "mur de Berlin", "Reichstag"],
+            "en": ["Brandenburg Gate", "Berlin Wall", "Reichstag"],
+            "postal": ["10115", "10178"]
+        },
+        "cityId": "65144"
+    },
+    {
+        "id": "bethlehem",
+        "name": {
+            "fr": "Bethléem, Palestine",
+            "en": "Bethlehem, Palestine"
+        },
+        "keywords": {
+            "fr": ["basilique de la Nativité"],
+            "en": ["Church of the Nativity"],
+            "postal": []
+        },
+        "cityId": "76477"
+    },
+    {
+        "id": "bilbao",
+        "name": {
+            "fr": "Bilbao, Espagne",
+            "en": "Bilbao, Spain"
+        },
+        "keywords": {
+            "fr": ["musée Guggenheim", "vieille ville"],
+            "en": ["Guggenheim Museum", "old town"],
+            "postal": ["48001"]
+        },
+        "cityId": "66335"
+    },
+    {
+        "id": "birmingham",
+        "name": {
+            "fr": "Birmingham, Royaume-Uni",
+            "en": "Birmingham, United Kingdom"
+        },
+        "keywords": {
+            "fr": ["Bullring", "bibliothèque de Birmingham"],
+            "en": ["Bullring", "Birmingham Library"],
+            "postal": ["B1"]
+        },
+        "cityId": "67597"
+    },
+    {
+        "id": "blackpool",
+        "name": {
+            "fr": "Blackpool, Royaume-Uni",
+            "en": "Blackpool, United Kingdom"
+        },
+        "keywords": {
+            "fr": ["Blackpool Tower", "Pleasure Beach"],
+            "en": ["Blackpool Tower", "Pleasure Beach"],
+            "postal": ["FY1"]
+        },
+        "cityId": "67591"
+    },
+    {
+        "id": "blankenberge",
+        "name": {
+            "fr": "Blankenberge, Belgique",
+            "en": "Blankenberge, Belgium"
+        },
+        "keywords": {
+            "fr": ["plage", "pier"],
+            "en": ["beach", "pier"],
+            "postal": ["8370"]
+        },
+        "cityId": "60852"
+    },
+    {
+        "id": "bodrum",
+        "name": {
+            "fr": "Bodrum, Turquie",
+            "en": "Bodrum, Turkey"
+        },
+        "keywords": {
+            "fr": ["château de Bodrum", "plages"],
+            "en": ["Bodrum Castle", "beaches"],
+            "postal": ["48400"]
+        },
+        "cityId": "78967"
+    },
+    {
+        "id": "bogota",
+        "name": {
+            "fr": "Bogotá, Colombie",
+            "en": "Bogotá, Colombia"
+        },
+        "keywords": {
+            "fr": ["Monserrate", "musée de l'Or"],
+            "en": ["Monserrate", "Gold Museum"],
+            "postal": ["110321"]
+        },
+        "cityId": "81"
+    },
+    {
+        "id": "bologna",
+        "name": {
+            "fr": "Bologne, Italie",
+            "en": "Bologna, Italy"
+        },
+        "keywords": {
+            "fr": ["tour des Asinelli", "université de Bologne"],
+            "en": ["Asinelli Tower", "University of Bologna"],
+            "postal": ["40121"]
+        },
+        "cityId": "71986"
+    },
+    {
+        "id": "bordeaux",
+        "name": {
+            "fr": "Bordeaux, France",
+            "en": "Bordeaux, France"
+        },
+        "keywords": {
+            "fr": ["place de la Bourse", "Cité du Vin"],
+            "en": ["Place de la Bourse", "Cité du Vin"],
+            "postal": ["33000"]
+        },
+        "cityId": "67101"
+    },
+    {
+        "id": "boston",
+        "name": {
+            "fr": "Boston, États-Unis",
+            "en": "Boston, United States"
+        },
+        "keywords": {
+            "fr": ["Freedom Trail", "Harvard", "Fenway Park"],
+            "en": ["Freedom Trail", "Harvard", "Fenway Park"],
+            "postal": ["02108"]
+        },
+        "cityId": "80874"
+    },
+    {
+        "id": "boulogne-sur-mer",
+        "name": {
+            "fr": "Boulogne-sur-Mer, France",
+            "en": "Boulogne-sur-Mer, France"
+        },
+        "keywords": {
+            "fr": ["Nausicaá", "vieille ville"],
+            "en": ["Nausicaá", "old town"],
+            "postal": ["62200"]
+        },
+        "cityId": "67098"
+    },
+    {
+        "id": "bournemouth",
+        "name": {
+            "fr": "Bournemouth, Royaume-Uni",
+            "en": "Bournemouth, United Kingdom"
+        },
+        "keywords": {
+            "fr": ["plage", "Bournemouth Pier"],
+            "en": ["beach", "Bournemouth Pier"],
+            "postal": ["BH1"]
+        },
+        "cityId": "67582"
+    },
+    {
+        "id": "braga",
+        "name": {
+            "fr": "Braga, Portugal",
+            "en": "Braga, Portugal"
+        },
+        "keywords": {
+            "fr": ["bom Jesus do Monte", "cathédrale de Braga"],
+            "en": ["bom Jesus do Monte", "Braga Cathedral"],
+            "postal": ["4700"]
+        },
+        "cityId": "76598"
+    },
+    {
+        "id": "brampton",
+        "name": {
+            "fr": "Brampton, Canada",
+            "en": "Brampton, Canada"
+        },
+        "keywords": {
+            "fr": ["Gage Park", "centre-ville"],
+            "en": ["Gage Park", "downtown"],
+            "postal": ["L6T"]
+        },
+        "cityId": "98490"
+    },
+    {
+        "id": "bran",
+        "name": {
+            "fr": "Bran, Roumanie",
+            "en": "Bran, Romania"
+        },
+        "keywords": {
+            "fr": ["château de Bran", "Dracula"],
+            "en": ["Bran Castle", "Dracula"],
+            "postal": ["507025"]
+        },
+        "cityId": "115866"
+    },
+    {
+        "id": "brasov",
+        "name": {
+            "fr": "Brașov, Roumanie",
+            "en": "Brașov, Romania"
+        },
+        "keywords": {
+            "fr": ["place du Conseil", "mont Tâmpa"],
+            "en": ["Council Square", "Mount Tâmpa"],
+            "postal": ["500030"]
+        },
+        "cityId": "260938"
+    },
+    {
+        "id": "brescia",
+        "name": {
+            "fr": "Brescia, Italie",
+            "en": "Brescia, Italy"
+        },
+        "keywords": {
+            "fr": ["Piazza della Loggia", "château de Brescia"],
+            "en": ["Piazza della Loggia", "Brescia Castle"],
+            "postal": ["25121"]
+        },
+        "cityId": "71978"
+    },
+    {
+        "id": "brighton",
+        "name": {
+            "fr": "Brighton, Royaume-Uni",
+            "en": "Brighton, United Kingdom"
+        },
+        "keywords": {
+            "fr": ["Royal Pavilion", "Brighton Pier"],
+            "en": ["Royal Pavilion", "Brighton Pier"],
+            "postal": ["BN1"]
+        },
+        "cityId": "67570"
+    },
+    {
+        "id": "bruges",
+        "name": {
+            "fr": "Bruges, Belgique",
+            "en": "Bruges, Belgium"
+        },
+        "keywords": {
+            "fr": ["beffroi", "canaux", "Grand-Place"],
+            "en": ["belfry", "canals", "Market Square"],
+            "postal": ["8000"]
+        },
+        "cityId": "60844"
+    },
+    {
+        "id": "brussels",
+        "name": {
+            "fr": "Bruxelles, Belgique",
+            "en": "Brussels, Belgium"
+        },
+        "keywords": {
+            "fr": ["Grand-Place", "Atomium", "Manneken Pis"],
+            "en": ["Grand Place", "Atomium", "Manneken Pis"],
+            "postal": ["1000"]
+        },
+        "cityId": "60843"
+    },
+    {
+        "id": "bucharest",
+        "name": {
+            "fr": "Bucarest, Roumanie",
+            "en": "Bucharest, Romania"
+        },
+        "keywords": {
+            "fr": ["palais du Parlement", "vieille ville"],
+            "en": ["Palace of Parliament", "old town"],
+            "postal": ["010131"]
+        },
+        "cityId": "76753"
+    },
+    {
+        "id": "budapest",
+        "name": {
+            "fr": "Budapest, Hongrie",
+            "en": "Budapest, Hungary"
+        },
+        "keywords": {
+            "fr": ["parlement hongrois", "bains Széchenyi", "château de Buda"],
+            "en": ["Hungarian Parliament", "Széchenyi Baths", "Buda Castle"],
+            "postal": ["1051"]
+        },
+        "cityId": "68199"
+    },
+    {
+        "id": "buenos-aires",
+        "name": {
+            "fr": "Buenos Aires, Argentine",
+            "en": "Buenos Aires, Argentina"
+        },
+        "keywords": {
+            "fr": ["Obélisque", "La Boca", "Cimetière de Recoleta"],
+            "en": ["Obelisk", "La Boca", "Recoleta Cemetery"],
+            "postal": ["C1002"]
+        },
+        "cityId": "60189"
+    },
+    {
+        "id": "burgas",
+        "name": {
+            "fr": "Burgas, Bulgarie",
+            "en": "Burgas, Bulgaria"
+        },
+        "keywords": {
+            "fr": ["plage", "port", "parc maritime"],
+            "en": ["beach", "port", "Sea Garden"],
+            "postal": ["8000"]
+        },
+        "cityId": "60950"
+    },
+    {
+        "id": "caen",
+        "name": {
+            "fr": "Caen, France",
+            "en": "Caen, France"
+        },
+        "keywords": {
+            "fr": ["mémorial de Caen", "château de Caen"],
+            "en": ["Caen Memorial", "Caen Castle"],
+            "postal": ["14000"]
+        },
+        "cityId": "67081"
+    },
+    {
+        "id": "cagliari",
+        "name": {
+            "fr": "Cagliari, Italie",
+            "en": "Cagliari, Italy"
+        },
+        "keywords": {
+            "fr": ["bastion Saint-Rémy", "plage Poetto"],
+            "en": ["Bastione Saint Remy", "Poetto Beach"],
+            "postal": ["09124"]
+        },
+        "cityId": "71473"
+    },
+    {
+        "id": "cairns",
+        "name": {
+            "fr": "Cairns, Australie",
+            "en": "Cairns, Australia"
+        },
+        "keywords": {
+            "fr": ["Grande Barrière de Corail", "Daintree Rainforest"],
+            "en": ["Great Barrier Reef", "Daintree Rainforest"],
+            "postal": ["4870"]
+        },
+        "cityId": "60466"
+    },
+    {
+        "id": "calgary",
+        "name": {
+            "fr": "Calgary, Canada",
+            "en": "Calgary, Canada"
+        },
+        "keywords": {
+            "fr": ["Stampede", "Tour Calgary"],
+            "en": ["Stampede", "Calgary Tower"],
+            "postal": ["T2P"]
+        },
+        "cityId": "62338"
+    },
+    {
+        "id": "cambridge-uk",
+        "name": {
+            "fr": "Cambridge, Royaume-Uni",
+            "en": "Cambridge, United Kingdom"
+        },
+        "keywords": {
+            "fr": ["université de Cambridge", "King's College"],
+            "en": ["University of Cambridge", "King's College"],
+            "postal": ["CB2"]
+        },
+        "cityId": "67548"
+    },
+    {
+        "id": "cambridge-us",
+        "name": {
+            "fr": "Cambridge, États-Unis",
+            "en": "Cambridge, United States"
+        },
+        "keywords": {
+            "fr": ["Harvard", "MIT"],
+            "en": ["Harvard", "MIT"],
+            "postal": ["02138"]
+        },
+        "cityId": "80879"
+    },
+    {
+        "id": "canakkale",
+        "name": {
+            "fr": "Çanakkale, Turquie",
+            "en": "Çanakkale, Turkey"
+        },
+        "keywords": {
+            "fr": ["site de Troie", "détroit des Dardanelles"],
+            "en": ["Troy site", "Dardanelles Strait"],
+            "postal": ["17100"]
+        },
+        "cityId": "183"
+    },
+    {
+        "id": "cancun",
+        "name": {
+            "fr": "Cancún, Mexique",
+            "en": "Cancún, Mexico"
+        },
+        "keywords": {
+            "fr": ["plages", "Riviera Maya"],
+            "en": ["beaches", "Riviera Maya"],
+            "postal": ["77500"]
+        },
+        "cityId": "24"
+    },
+    {
+        "id": "capri",
+        "name": {
+            "fr": "Capri, Italie",
+            "en": "Capri, Italy"
+        },
+        "keywords": {
+            "fr": ["grotte bleue", "Anacapri"],
+            "en": ["Blue Grotto", "Anacapri"],
+            "postal": ["80073"]
+        },
+        "cityId": "105984"
+    },
+    {
+        "id": "carcassonne",
+        "name": {
+            "fr": "Carcassonne, France",
+            "en": "Carcassonne, France"
+        },
+        "keywords": {
+            "fr": ["cité médiévale", "château comtal"],
+            "en": ["medieval city", "count's castle"],
+            "postal": ["11000"]
+        },
+        "cityId": "67073"
+    },
+    {
+        "id": "cardiff",
+        "name": {
+            "fr": "Cardiff, Royaume-Uni",
+            "en": "Cardiff, United Kingdom"
+        },
+        "keywords": {
+            "fr": ["château de Cardiff", "Millennium Stadium"],
+            "en": ["Cardiff Castle", "Millennium Stadium"],
+            "postal": ["CF10"]
+        },
+        "cityId": "67545"
+    },
+    {
+        "id": "caserta",
+        "name": {
+            "fr": "Caserta, Italie",
+            "en": "Caserta, Italy"
+        },
+        "keywords": {
+            "fr": ["palais royal de Caserta"],
+            "en": ["Royal Palace of Caserta"],
+            "postal": ["81100"]
+        },
+        "cityId": "105064"
+    },
+    {
+        "id": "castel-di-lama",
+        "name": {
+            "fr": "Castel di Lama, Italie",
+            "en": "Castel di Lama, Italy"
+        },
+        "keywords": {
+            "fr": ["Marche", "Ascoli Piceno"],
+            "en": ["Marche", "Ascoli Piceno"],
+            "postal": ["63082"]
+        },
+        "cityId": "106390"
+    },
+    {
+        "id": "catania",
+        "name": {
+            "fr": "Catane, Italie",
+            "en": "Catania, Italy"
+        },
+        "keywords": {
+            "fr": ["Etna", "place du Dôme"],
+            "en": ["Mount Etna", "Piazza del Duomo"],
+            "postal": ["95121"]
+        },
+        "cityId": "71461"
+    },
+    {
+        "id": "cesky-krumlov",
+        "name": {
+            "fr": "Český Krumlov, République Tchèque",
+            "en": "Český Krumlov, Czech Republic"
+        },
+        "keywords": {
+            "fr": ["château", "vieille ville"],
+            "en": ["castle", "old town"],
+            "postal": ["381 01"]
+        },
+        "cityId": "90598"
+    },
+    {
+        "id": "chamonix",
+        "name": {
+            "fr": "Chamonix-Mont-Blanc, France",
+            "en": "Chamonix-Mont-Blanc, France"
+        },
+        "keywords": {
+            "fr": ["Mont Blanc", "mer de Glace", "Aiguille du Midi"],
+            "en": ["Mont Blanc", "Mer de Glace", "Aiguille du Midi"],
+            "postal": ["74400"]
+        },
+        "cityId": "97278"
+    },
+    {
+        "id": "champs-sur-marne",
+        "name": {
+            "fr": "Champs-sur-Marne, France",
+            "en": "Champs-sur-Marne, France"
+        },
+        "keywords": {
+            "fr": ["château de Champs"],
+            "en": ["Château de Champs"],
+            "postal": ["77420"]
+        },
+        "cityId": "67054"
+    },
+    {
+        "id": "chantilly",
+        "name": {
+            "fr": "Chantilly, France",
+            "en": "Chantilly, France"
+        },
+        "keywords": {
+            "fr": ["château de Chantilly", "crème Chantilly"],
+            "en": ["Château de Chantilly", "Chantilly cream"],
+            "postal": ["60500"]
+        },
+        "cityId": "97268"
+    },
+    {
+        "id": "charleston",
+        "name": {
+            "fr": "Charleston, États-Unis",
+            "en": "Charleston, United States"
+        },
+        "keywords": {
+            "fr": ["quartier historique", "plantation Middleton"],
+            "en": ["historic district", "Middleton Plantation"],
+            "postal": ["29401"]
+        },
+        "cityId": "80045"
+    },
+    {
+        "id": "charlotte",
+        "name": {
+            "fr": "Charlotte, États-Unis",
+            "en": "Charlotte, United States"
+        },
+        "keywords": {
+            "fr": ["NASCAR Hall of Fame"],
+            "en": ["NASCAR Hall of Fame"],
+            "postal": ["28202"]
+        },
+        "cityId": "80353"
+    },
+    {
+        "id": "chaumont-sur-loire",
+        "name": {
+            "fr": "Chaumont-sur-Loire, France",
+            "en": "Chaumont-sur-Loire, France"
+        },
+        "keywords": {
+            "fr": ["château de Chaumont", "festival des jardins"],
+            "en": ["Chaumont Castle", "Garden Festival"],
+            "postal": ["41150"]
+        },
+        "cityId": "182857"
+    },
+    {
+        "id": "cherbourg",
+        "name": {
+            "fr": "Cherbourg-en-Cotentin, France",
+            "en": "Cherbourg-en-Cotentin, France"
+        },
+        "keywords": {
+            "fr": ["Cité de la Mer", "port"],
+            "en": ["Cité de la Mer", "harbor"],
+            "postal": ["50100"]
+        },
+        "cityId": "67038"
+    },
+    {
+        "id": "chicago",
+        "name": {
+            "fr": "Chicago, États-Unis",
+            "en": "Chicago, United States"
+        },
+        "keywords": {
+            "fr": ["Willis Tower", "Millennium Park", "Navy Pier"],
+            "en": ["Willis Tower", "Millennium Park", "Navy Pier"],
+            "postal": ["60601"]
+        },
+        "cityId": "80816"
+    },
+    {
+        "id": "chichen-itza",
+        "name": {
+            "fr": "Chichén Itzá, Mexique",
+            "en": "Chichén Itzá, Mexico"
+        },
+        "keywords": {
+            "fr": ["pyramide de Kukulcán", "site maya"],
+            "en": ["El Castillo", "Maya site"],
+            "postal": ["97751"]
+        },
+        "cityId": "74049"
+    },
+    {
+        "id": "chinon",
+        "name": {
+            "fr": "Chinon, France",
+            "en": "Chinon, France"
+        },
+        "keywords": {
+            "fr": ["forteresse royale", "vignobles"],
+            "en": ["royal fortress", "vineyards"],
+            "postal": ["37500"]
+        },
+        "cityId": "97220"
+    },
+    {
+        "id": "clermont",
+        "name": {
+            "fr": "Clermont, États-Unis",
+            "en": "Clermont, United States"
+        },
+        "keywords": {
+            "fr": ["Lac Minneola", "Florida Citrus Tower"],
+            "en": ["Lake Minneola", "Florida Citrus Tower"],
+            "postal": ["34711"]
+        },
+        "cityId": "79784"
+    },
+    {
+        "id": "cluny",
+        "name": {
+            "fr": "Cluny, France",
+            "en": "Cluny, France"
+        },
+        "keywords": {
+            "fr": ["abbaye de Cluny"],
+            "en": ["Cluny Abbey"],
+            "postal": ["71250"]
+        },
+        "cityId": "182711"
+    },
+    {
+        "id": "coevorden",
+        "name": {
+            "fr": "Coevorden, Pays-Bas",
+            "en": "Coevorden, Netherlands"
+        },
+        "keywords": {
+            "fr": ["château de Coevorden"],
+            "en": ["Coevorden Castle"],
+            "postal": ["7741"]
+        },
+        "cityId": "111536"
+    },
+    {
+        "id": "coimbra",
+        "name": {
+            "fr": "Coimbra, Portugal",
+            "en": "Coimbra, Portugal"
+        },
+        "keywords": {
+            "fr": ["université de Coimbra", "bibliothèque Joanina"],
+            "en": ["University of Coimbra", "Joanina Library"],
+            "postal": ["3000"]
+        },
+        "cityId": "76595"
+    },
+    {
+        "id": "cologne",
+        "name": {
+            "fr": "Cologne, Allemagne",
+            "en": "Cologne, Germany"
+        },
+        "keywords": {
+            "fr": ["cathédrale de Cologne", "musée du parfum"],
+            "en": ["Cologne Cathedral", "Fragrance Museum"],
+            "postal": ["50667"]
+        },
+        "cityId": "64765"
+    },
+    {
+        "id": "como",
+        "name": {
+            "fr": "Côme, Italie",
+            "en": "Como, Italy"
+        },
+        "keywords": {
+            "fr": ["lac de Côme", "vieille ville"],
+            "en": ["Lake Como", "old town"],
+            "postal": ["22100"]
+        },
+        "cityId": "71894"
+    },
+    {
+        "id": "constanta",
+        "name": {
+            "fr": "Constanța, Roumanie",
+            "en": "Constanța, Romania"
+        },
+        "keywords": {
+            "fr": ["port", "Casino Constanța"],
+            "en": ["port", "Constanța Casino"],
+            "postal": ["900001"]
+        },
+        "cityId": "260939"
+    },
+    {
+        "id": "copenhagen",
+        "name": {
+            "fr": "Copenhague, Danemark",
+            "en": "Copenhagen, Denmark"
+        },
+        "keywords": {
+            "fr": ["petite sirène", "Tivoli", "Nyhavn"],
+            "en": ["Little Mermaid", "Tivoli Gardens", "Nyhavn"],
+            "postal": ["1050"]
+        },
+        "cityId": "113"
+    },
+    {
+        "id": "cordoba",
+        "name": {
+            "fr": "Córdoba, Espagne",
+            "en": "Córdoba, Spain"
+        },
+        "keywords": {
+            "fr": ["mosquée-cathédrale", "Alcazar"],
+            "en": ["Mosque-Cathedral", "Alcázar"],
+            "postal": ["14001"]
+        },
+        "cityId": "27"
+    },
+    {
+        "id": "cork",
+        "name": {
+            "fr": "Cork, Irlande",
+            "en": "Cork, Ireland"
+        },
+        "keywords": {
+            "fr": ["English Market", "château de Blarney"],
+            "en": ["English Market", "Blarney Castle"],
+            "postal": ["T12"]
+        },
+        "cityId": "1841"
+    },
+    {
+        "id": "cozumel",
+        "name": {
+            "fr": "Cozumel, Mexique",
+            "en": "Cozumel, Mexico"
+        },
+        "keywords": {
+            "fr": ["plongée sous-marine", "récifs coralliens"],
+            "en": ["scuba diving", "coral reefs"],
+            "postal": ["77600"]
+        },
+        "cityId": "370"
+    },
+    {
+        "id": "cusco",
+        "name": {
+            "fr": "Cusco, Pérou",
+            "en": "Cusco, Peru"
+        },
+        "keywords": {
+            "fr": ["Machu Picchu", "place d'Armes"],
+            "en": ["Machu Picchu", "Plaza de Armas"],
+            "postal": ["08000"]
+        },
+        "cityId": "75323"
+    },
+    {
+        "id": "dachau",
+        "name": {
+            "fr": "Dachau, Allemagne",
+            "en": "Dachau, Germany"
+        },
+        "keywords": {
+            "fr": ["mémorial du camp de concentration"],
+            "en": ["Dachau concentration camp memorial"],
+            "postal": ["85221"]
+        },
+        "cityId": "65070"
+    },
+    {
+        "id": "dallas",
+        "name": {
+            "fr": "Dallas, États-Unis",
+            "en": "Dallas, United States"
+        },
+        "keywords": {
+            "fr": ["Reunion Tower", "Sixth Floor Museum"],
+            "en": ["Reunion Tower", "Sixth Floor Museum"],
+            "postal": ["75201"]
+        },
+        "cityId": "80608"
+    },
+    {
+        "id": "de-panne",
+        "name": {
+            "fr": "De Panne, Belgique",
+            "en": "De Panne, Belgium"
+        },
+        "keywords": {
+            "fr": ["plage", "dunes"],
+            "en": ["beach", "dunes"],
+            "postal": ["8660"]
+        },
+        "cityId": "85055"
+    },
+    {
+        "id": "delft",
+        "name": {
+            "fr": "Delft, Pays-Bas",
+            "en": "Delft, Netherlands"
+        },
+        "keywords": {
+            "fr": ["faïence de Delft", "Nieuwe Kerk"],
+            "en": ["Delftware", "Nieuwe Kerk"],
+            "postal": ["2611"]
+        },
+        "cityId": "75020"
+    },
+    {
+        "id": "delhi",
+        "name": {
+            "fr": "Delhi, Inde",
+            "en": "Delhi, India"
+        },
+        "keywords": {
+            "fr": ["Qutub Minar", "porte de l'Inde"],
+            "en": ["Qutub Minar", "India Gate"],
+            "postal": ["110001"]
+        },
+        "cityId": "70505"
+    },
+    {
+        "id": "denpasar",
+        "name": {
+            "fr": "Denpasar, Indonésie",
+            "en": "Denpasar, Indonesia"
+        },
+        "keywords": {
+            "fr": ["Bali", "Pura Jagatnatha"],
+            "en": ["Bali", "Pura Jagatnatha"],
+            "postal": ["80222"]
+        },
+        "cityId": "68506"
+    },
+    {
+        "id": "derinkuyu",
+        "name": {
+            "fr": "Derinkuyu, Turquie",
+            "en": "Derinkuyu, Turkey"
+        },
+        "keywords": {
+            "fr": ["ville souterraine"],
+            "en": ["underground city"],
+            "postal": ["50700"]
+        },
+        "cityId": "120725"
+    },
+    {
+        "id": "derry",
+        "name": {
+            "fr": "Derry, Royaume-Uni",
+            "en": "Derry, United Kingdom"
+        },
+        "keywords": {
+            "fr": ["murs de Derry", "Bogside"],
+            "en": ["Derry Walls", "Bogside"],
+            "postal": ["BT48"]
+        },
+        "cityId": "199867"
+    },
+    {
+        "id": "dorgali",
+        "name": {
+            "fr": "Dorgali, Italie",
+            "en": "Dorgali, Italy"
+        },
+        "keywords": {
+            "fr": ["grotte du Bue Marino", "Sardaigne"],
+            "en": ["Bue Marino cave", "Sardinia"],
+            "postal": ["08022"]
+        },
+        "cityId": "105708"
+    },
+    {
+        "id": "dortmund",
+        "name": {
+            "fr": "Dortmund, Allemagne",
+            "en": "Dortmund, Germany"
+        },
+        "keywords": {
+            "fr": ["Signal Iduna Park", "musée du football"],
+            "en": ["Signal Iduna Park", "Football Museum"],
+            "postal": ["44137"]
+        },
+        "cityId": "65045"
+    },
+    {
+        "id": "dresden",
+        "name": {
+            "fr": "Dresde, Allemagne",
+            "en": "Dresden, Germany"
+        },
+        "keywords": {
+            "fr": ["Frauenkirche", "Zwinger"],
+            "en": ["Frauenkirche", "Zwinger"],
+            "postal": ["01067"]
+        },
+        "cityId": "65042"
+    },
+    {
+        "id": "dubai",
+        "name": {
+            "fr": "Dubaï, Émirats Arabes Unis",
+            "en": "Dubai, United Arab Emirates"
+        },
+        "keywords": {
+            "fr": ["Burj Khalifa", "Palm Jumeirah", "Dubai Mall"],
+            "en": ["Burj Khalifa", "Palm Jumeirah", "Dubai Mall"],
+            "postal": []
+        },
+        "cityId": "60005"
+    },
+    {
+        "id": "dublin",
+        "name": {
+            "fr": "Dublin, Irlande",
+            "en": "Dublin, Ireland"
+        },
+        "keywords": {
+            "fr": ["Guinness Storehouse", "Temple Bar", "château de Dublin"],
+            "en": ["Guinness Storehouse", "Temple Bar", "Dublin Castle"],
+            "postal": ["D01"]
+        },
+        "cityId": "68616"
+    },
+    {
+        "id": "durham",
+        "name": {
+            "fr": "Durham, Royaume-Uni",
+            "en": "Durham, United Kingdom"
+        },
+        "keywords": {
+            "fr": ["cathédrale de Durham", "université"],
+            "en": ["Durham Cathedral", "university"],
+            "postal": ["DH1"]
+        },
+        "cityId": "126"
+    },
+    {
+        "id": "dusseldorf",
+        "name": {
+            "fr": "Düsseldorf, Allemagne",
+            "en": "Düsseldorf, Germany"
+        },
+        "keywords": {
+            "fr": ["Königsallee", "vieille ville"],
+            "en": ["Königsallee", "old town"],
+            "postal": ["40213"]
+        },
+        "cityId": "65037"
+    },
+    {
+        "id": "edinburgh",
+        "name": {
+            "fr": "Édimbourg, Royaume-Uni",
+            "en": "Edinburgh, United Kingdom"
+        },
+        "keywords": {
+            "fr": ["château d'Édimbourg", "Royal Mile"],
+            "en": ["Edinburgh Castle", "Royal Mile"],
+            "postal": ["EH1"]
+        },
+        "cityId": "21"
+    },
+    {
+        "id": "eindhoven",
+        "name": {
+            "fr": "Eindhoven, Pays-Bas",
+            "en": "Eindhoven, Netherlands"
+        },
+        "keywords": {
+            "fr": ["Philips", "Strijp-S"],
+            "en": ["Philips", "Strijp-S"],
+            "postal": ["5611"]
+        },
+        "cityId": "75003"
+    },
+    {
+        "id": "eisenstadt",
+        "name": {
+            "fr": "Eisenstadt, Autriche",
+            "en": "Eisenstadt, Austria"
+        },
+        "keywords": {
+            "fr": ["palais Esterházy", "Haydn"],
+            "en": ["Esterházy Palace", "Haydn"],
+            "postal": ["7000"]
+        },
+        "cityId": "83806"
+    },
+    {
+        "id": "el-calafate",
+        "name": {
+            "fr": "El Calafate, Argentine",
+            "en": "El Calafate, Argentina"
+        },
+        "keywords": {
+            "fr": ["glacier Perito Moreno"],
+            "en": ["Perito Moreno Glacier"],
+            "postal": ["Z9405"]
+        },
+        "cityId": "83553"
+    },
+    {
+        "id": "emmen",
+        "name": {
+            "fr": "Emmen, Pays-Bas",
+            "en": "Emmen, Netherlands"
+        },
+        "keywords": {
+            "fr": ["Wildlands Adventure Zoo"],
+            "en": ["Wildlands Adventure Zoo"],
+            "postal": ["7811"]
+        },
+        "cityId": "74999"
+    },
+    {
+        "id": "enkhuizen",
+        "name": {
+            "fr": "Enkhuizen, Pays-Bas",
+            "en": "Enkhuizen, Netherlands"
+        },
+        "keywords": {
+            "fr": ["Zuiderzeemuseum"],
+            "en": ["Zuiderzeemuseum"],
+            "postal": ["1601"]
+        },
+        "cityId": "74998"
+    },
+    {
+        "id": "essen",
+        "name": {
+            "fr": "Essen, Allemagne",
+            "en": "Essen, Germany"
+        },
+        "keywords": {
+            "fr": ["Zollverein", "Villa Hügel"],
+            "en": ["Zollverein", "Villa Hügel"],
+            "postal": ["45127"]
+        },
+        "cityId": "64998"
+    },
+    {
+        "id": "fairbanks",
+        "name": {
+            "fr": "Fairbanks, États-Unis",
+            "en": "Fairbanks, United States"
+        },
+        "keywords": {
+            "fr": ["aurores boréales", "Alaska"],
+            "en": ["northern lights", "Alaska"],
+            "postal": ["99701"]
+        },
+        "cityId": "82344"
+    },
+    {
+        "id": "fatima",
+        "name": {
+            "fr": "Fátima, Portugal",
+            "en": "Fátima, Portugal"
+        },
+        "keywords": {
+            "fr": ["sanctuaire de Fátima"],
+            "en": ["Fátima Sanctuary"],
+            "postal": ["2495"]
+        },
+        "cityId": "114807"
+    },
+    {
+        "id": "ferney-voltaire",
+        "name": {
+            "fr": "Ferney-Voltaire, France",
+            "en": "Ferney-Voltaire, France"
+        },
+        "keywords": {
+            "fr": ["Voltaire", "château de Voltaire"],
+            "en": ["Voltaire", "Voltaire's castle"],
+            "postal": ["01210"]
+        },
+        "cityId": "97034"
+    },
+    {
+        "id": "figueres",
+        "name": {
+            "fr": "Figueres, Espagne",
+            "en": "Figueres, Spain"
+        },
+        "keywords": {
+            "fr": ["théâtre-musée Dalí"],
+            "en": ["Dalí Theatre-Museum"],
+            "postal": ["17600"]
+        },
+        "cityId": "66292"
+    },
+    {
+        "id": "florence",
+        "name": {
+            "fr": "Florence, Italie",
+            "en": "Florence, Italy"
+        },
+        "keywords": {
+            "fr": ["Duomo", "Ponte Vecchio", "Galerie des Offices"],
+            "en": ["Duomo", "Ponte Vecchio", "Uffizi Gallery"],
+            "postal": ["50122"]
+        },
+        "cityId": "71854"
+    },
+    {
+        "id": "flores",
+        "name": {
+            "fr": "Flores, Guatemala",
+            "en": "Flores, Guatemala"
+        },
+        "keywords": {
+            "fr": ["lac Petén Itzá", "Tikal"],
+            "en": ["Lake Petén Itzá", "Tikal"],
+            "postal": ["17001"]
+        },
+        "cityId": "67993"
+    },
+    {
+        "id": "fludir",
+        "name": {
+            "fr": "Flúðir, Islande",
+            "en": "Flúðir, Iceland"
+        },
+        "keywords": {
+            "fr": ["source chaude", "Cercle d'Or"],
+            "en": ["hot spring", "Golden Circle"],
+            "postal": ["845"]
+        },
+        "cityId": "261005"
+    },
+    {
+        "id": "fort-lauderdale",
+        "name": {
+            "fr": "Fort Lauderdale, États-Unis",
+            "en": "Fort Lauderdale, United States"
+        },
+        "keywords": {
+            "fr": ["plages", "canaux"],
+            "en": ["beaches", "canals"],
+            "postal": ["33301"]
+        },
+        "cityId": "79817"
+    },
+    {
+        "id": "frankfurt",
+        "name": {
+            "fr": "Francfort, Allemagne",
+            "en": "Frankfurt, Germany"
+        },
+        "keywords": {
+            "fr": ["Römer", "Main Tower"],
+            "en": ["Römer", "Main Tower"],
+            "postal": ["60311"]
+        },
+        "cityId": "64980"
+    },
+    {
+        "id": "funchal",
+        "name": {
+            "fr": "Funchal, Portugal",
+            "en": "Funchal, Portugal"
+        },
+        "keywords": {
+            "fr": ["Madère", "jardin botanique"],
+            "en": ["Madeira", "botanical garden"],
+            "postal": ["9000"]
+        },
+        "cityId": "76533"
+    },
+    {
+        "id": "genk",
+        "name": {
+            "fr": "Genk, Belgique",
+            "en": "Genk, Belgium"
+        },
+        "keywords": {
+            "fr": ["Bokrijk", "C-mine"],
+            "en": ["Bokrijk", "C-mine"],
+            "postal": ["3600"]
+        },
+        "cityId": "60815"
+    },
+    {
+        "id": "genoa",
+        "name": {
+            "fr": "Gênes, Italie",
+            "en": "Genoa, Italy"
+        },
+        "keywords": {
+            "fr": ["aquarium de Gênes", "vieux port"],
+            "en": ["Genoa Aquarium", "old port"],
+            "postal": ["16121"]
+        },
+        "cityId": "71831"
+    },
+    {
+        "id": "ghent",
+        "name": {
+            "fr": "Gand, Belgique",
+            "en": "Ghent, Belgium"
+        },
+        "keywords": {
+            "fr": ["château des Comtes", "retable de l'Agneau mystique"],
+            "en": ["Gravensteen", "Ghent Altarpiece"],
+            "postal": ["9000"]
+        },
+        "cityId": "60814"
+    },
+    {
+        "id": "girona",
+        "name": {
+            "fr": "Gérone, Espagne",
+            "en": "Girona, Spain"
+        },
+        "keywords": {
+            "fr": ["quartier juif", "cathédrale"],
+            "en": ["Jewish quarter", "cathedral"],
+            "postal": ["17001"]
+        },
+        "cityId": "66285"
+    },
+    {
+        "id": "giverny",
+        "name": {
+            "fr": "Giverny, France",
+            "en": "Giverny, France"
+        },
+        "keywords": {
+            "fr": ["Claude Monet", "jardin de Monet"],
+            "en": ["Claude Monet", "Monet's garden"],
+            "postal": ["27620"]
+        },
+        "cityId": "276"
+    },
+    {
+        "id": "glasgow",
+        "name": {
+            "fr": "Glasgow, Royaume-Uni",
+            "en": "Glasgow, United Kingdom"
+        },
+        "keywords": {
+            "fr": ["Kelvingrove Museum", "université de Glasgow"],
+            "en": ["Kelvingrove Museum", "University of Glasgow"],
+            "postal": ["G1"]
+        },
+        "cityId": "5"
+    },
+    {
+        "id": "goreme",
+        "name": {
+            "fr": "Göreme, Turquie",
+            "en": "Göreme, Turkey"
+        },
+        "keywords": {
+            "fr": ["Cappadoce", "vallée de l'Amour"],
+            "en": ["Cappadocia", "Love Valley"],
+            "postal": ["50180"]
+        },
+        "cityId": "120668"
+    },
+    {
+        "id": "gothenburg",
+        "name": {
+            "fr": "Göteborg, Suède",
+            "en": "Gothenburg, Sweden"
+        },
+        "keywords": {
+            "fr": ["Liseberg", "archipel"],
+            "en": ["Liseberg", "archipelago"],
+            "postal": ["411 01"]
+        },
+        "cityId": "78108"
+    },
+    {
+        "id": "granada",
+        "name": {
+            "fr": "Grenade, Espagne",
+            "en": "Granada, Spain"
+        },
+        "keywords": {
+            "fr": ["Alhambra", "quartier Albaicín"],
+            "en": ["Alhambra", "Albaicín quarter"],
+            "postal": ["18001"]
+        },
+        "cityId": "66003"
+    },
+    {
+        "id": "graz",
+        "name": {
+            "fr": "Graz, Autriche",
+            "en": "Graz, Austria"
+        },
+        "keywords": {
+            "fr": ["château d'Eggenberg", "vieille ville"],
+            "en": ["Eggenberg Palace", "old town"],
+            "postal": ["8010"]
+        },
+        "cityId": "60360"
+    },
+    {
+        "id": "grindavik",
+        "name": {
+            "fr": "Grindavík, Islande",
+            "en": "Grindavík, Iceland"
+        },
+        "keywords": {
+            "fr": ["Blue Lagoon"],
+            "en": ["Blue Lagoon"],
+            "postal": ["240"]
+        },
+        "cityId": "203923"
+    },
+    {
+        "id": "grosseto",
+        "name": {
+            "fr": "Grosseto, Italie",
+            "en": "Grosseto, Italy"
+        },
+        "keywords": {
+            "fr": ["Toscane", "Maremma"],
+            "en": ["Tuscany", "Maremma"],
+            "postal": ["58100"]
+        },
+        "cityId": "71818"
+    },
+    {
+        "id": "guadalajara",
+        "name": {
+            "fr": "Guadalajara, Mexique",
+            "en": "Guadalajara, Mexico"
+        },
+        "keywords": {
+            "fr": ["Hospicio Cabañas", "tequila"],
+            "en": ["Hospicio Cabañas", "tequila"],
+            "postal": ["44100"]
+        },
+        "cityId": "74270"
+    },
+    {
+        "id": "guatemala-city",
+        "name": {
+            "fr": "Guatemala Ville, Guatemala",
+            "en": "Guatemala City, Guatemala"
+        },
+        "keywords": {
+            "fr": ["Palais National", "zone 1"],
+            "en": ["National Palace", "zone 1"],
+            "postal": ["01001"]
+        },
+        "cityId": "68006"
+    },
+    {
+        "id": "gurgaon",
+        "name": {
+            "fr": "Gurgaon, Inde",
+            "en": "Gurgaon, India"
+        },
+        "keywords": {
+            "fr": ["Cyber City", "DLF"],
+            "en": ["Cyber City", "DLF"],
+            "postal": ["122002"]
+        },
+        "cityId": "70285"
+    },
+    {
+        "id": "haarlem",
+        "name": {
+            "fr": "Haarlem, Pays-Bas",
+            "en": "Haarlem, Netherlands"
+        },
+        "keywords": {
+            "fr": ["musée Frans Hals", "Grote Markt"],
+            "en": ["Frans Hals Museum", "Grote Markt"],
+            "postal": ["2011"]
+        },
+        "cityId": "74982"
+    },
+    {
+        "id": "haines",
+        "name": {
+            "fr": "Haines, États-Unis",
+            "en": "Haines, United States"
+        },
+        "keywords": {
+            "fr": ["Alaska", "aigles"],
+            "en": ["Alaska", "eagles"],
+            "postal": ["99827"]
+        },
+        "cityId": "258507"
+    },
+    {
+        "id": "hamburg",
+        "name": {
+            "fr": "Hambourg, Allemagne",
+            "en": "Hamburg, Germany"
+        },
+        "keywords": {
+            "fr": ["port de Hambourg", "Speicherstadt"],
+            "en": ["Hamburg port", "Speicherstadt"],
+            "postal": ["20095"]
+        },
+        "cityId": "64886"
+    },
+    {
+        "id": "harderwijk",
+        "name": {
+            "fr": "Harderwijk, Pays-Bas",
+            "en": "Harderwijk, Netherlands"
+        },
+        "keywords": {
+            "fr": ["Dolfinarium"],
+            "en": ["Dolfinarium"],
+            "postal": ["3841"]
+        },
+        "cityId": "74980"
+    },
+    {
+        "id": "hasselt",
+        "name": {
+            "fr": "Hasselt, Belgique",
+            "en": "Hasselt, Belgium"
+        },
+        "keywords": {
+            "fr": ["jardin japonais", "jenever"],
+            "en": ["Japanese garden", "jenever"],
+            "postal": ["3500"]
+        },
+        "cityId": "60807"
+    },
+    {
+        "id": "hasloch",
+        "name": {
+            "fr": "Haßloch, Allemagne",
+            "en": "Haßloch, Germany"
+        },
+        "keywords": {
+            "fr": ["Holiday Park"],
+            "en": ["Holiday Park"],
+            "postal": ["67454"]
+        },
+        "cityId": "64872"
+    },
+    {
+        "id": "healy",
+        "name": {
+            "fr": "Healy, États-Unis",
+            "en": "Healy, United States"
+        },
+        "keywords": {
+            "fr": ["Denali", "Alaska"],
+            "en": ["Denali", "Alaska"],
+            "postal": ["99743"]
+        },
+        "cityId": "258629"
+    },
+    {
+        "id": "helsinki",
+        "name": {
+            "fr": "Helsinki, Finlande",
+            "en": "Helsinki, Finland"
+        },
+        "keywords": {
+            "fr": ["cathédrale d'Helsinki", "forteresse Suomenlinna"],
+            "en": ["Helsinki Cathedral", "Suomenlinna fortress"],
+            "postal": ["00100"]
+        },
+        "cityId": "66544"
+    },
+    {
+        "id": "hofn",
+        "name": {
+            "fr": "Höfn, Islande",
+            "en": "Höfn, Iceland"
+        },
+        "keywords": {
+            "fr": ["langoustines", "glacier Vatnajökull"],
+            "en": ["lobsters", "Vatnajökull glacier"],
+            "postal": ["780"]
+        },
+        "cityId": "203903"
+    },
+    {
+        "id": "hong-kong",
+        "name": {
+            "fr": "Hong Kong, Chine",
+            "en": "Hong Kong, China"
+        },
+        "keywords": {
+            "fr": ["Victoria Peak", "Star Ferry"],
+            "en": ["Victoria Peak", "Star Ferry"],
+            "postal": []
+        },
+        "cityId": "34"
+    },
+    {
+        "id": "honolulu",
+        "name": {
+            "fr": "Honolulu, États-Unis",
+            "en": "Honolulu, United States"
+        },
+        "keywords": {
+            "fr": ["Waikiki", "Pearl Harbor"],
+            "en": ["Waikiki", "Pearl Harbor"],
+            "postal": ["96815"]
+        },
+        "cityId": "82342"
+    },
+    {
+        "id": "houston",
+        "name": {
+            "fr": "Houston, États-Unis",
+            "en": "Houston, United States"
+        },
+        "keywords": {
+            "fr": ["NASA", "Space Center"],
+            "en": ["NASA", "Space Center"],
+            "postal": ["77002"]
+        },
+        "cityId": "80638"
+    },
+    {
+        "id": "huelva",
+        "name": {
+            "fr": "Huelva, Espagne",
+            "en": "Huelva, Spain"
+        },
+        "keywords": {
+            "fr": ["monastère de La Rábida", "Columbus"],
+            "en": ["La Rábida Monastery", "Columbus"],
+            "postal": ["21001"]
+        },
+        "cityId": "65996"
+    },
+    {
+        "id": "husafell",
+        "name": {
+            "fr": "Húsafell, Islande",
+            "en": "Húsafell, Iceland"
+        },
+        "keywords": {
+            "fr": ["glacier Langjökull", "sources chaudes"],
+            "en": ["Langjökull glacier", "hot springs"],
+            "postal": ["311"]
+        },
+        "cityId": "260972"
+    },
+    {
+        "id": "husavik",
+        "name": {
+            "fr": "Húsavík, Islande",
+            "en": "Húsavík, Iceland"
+        },
+        "keywords": {
+            "fr": ["observation baleines"],
+            "en": ["whale watching"],
+            "postal": ["640"]
+        },
+        "cityId": "203902"
+    },
+    {
+        "id": "innsbruck",
+        "name": {
+            "fr": "Innsbruck, Autriche",
+            "en": "Innsbruck, Austria"
+        },
+        "keywords": {
+            "fr": ["Goldenes Dachl", "Nordkette"],
+            "en": ["Golden Roof", "Nordkette"],
+            "postal": ["6020"]
+        },
+        "cityId": "60358"
+    },
+    {
+        "id": "interlaken",
+        "name": {
+            "fr": "Interlaken, Suisse",
+            "en": "Interlaken, Switzerland"
+        },
+        "keywords": {
+            "fr": ["Jungfrau", "lacs"],
+            "en": ["Jungfrau", "lakes"],
+            "postal": ["3800"]
+        },
+        "cityId": "88270"
+    },
+    {
+        "id": "inverness",
+        "name": {
+            "fr": "Inverness, Royaume-Uni",
+            "en": "Inverness, United Kingdom"
+        },
+        "keywords": {
+            "fr": ["Loch Ness", "château d'Inverness"],
+            "en": ["Loch Ness", "Inverness Castle"],
+            "postal": ["IV1"]
+        },
+        "cityId": "29"
+    },
+    {
+        "id": "istanbul",
+        "name": {
+            "fr": "Istanbul, Turquie",
+            "en": "Istanbul, Turkey"
+        },
+        "keywords": {
+            "fr": ["Sainte-Sophie", "mosquée Bleue", "Grand Bazar"],
+            "en": ["Hagia Sophia", "Blue Mosque", "Grand Bazaar"],
+            "postal": ["34122"]
+        },
+        "cityId": "79079"
+    },
+    {
+        "id": "izmir",
+        "name": {
+            "fr": "Izmir, Turquie",
+            "en": "Izmir, Turkey"
+        },
+        "keywords": {
+            "fr": ["Kordon", "agora", "Éphèse"],
+            "en": ["Kordon", "agora", "Ephesus"],
+            "postal": ["35220"]
+        },
+        "cityId": "1343"
+    },
+    {
+        "id": "jerusalem",
+        "name": {
+            "fr": "Jérusalem, Israël",
+            "en": "Jerusalem, Israel"
+        },
+        "keywords": {
+            "fr": ["mur des Lamentations", "Saint-Sépulcre"],
+            "en": ["Western Wall", "Church of the Holy Sepulchre"],
+            "postal": []
+        },
+        "cityId": "68627"
+    },
+    {
+        "id": "kaatsheuvel",
+        "name": {
+            "fr": "Kaatsheuvel, Pays-Bas",
+            "en": "Kaatsheuvel, Netherlands"
+        },
+        "keywords": {
+            "fr": ["Efteling"],
+            "en": ["Efteling"],
+            "postal": ["5171"]
+        },
+        "cityId": "952"
+    },
+    {
+        "id": "kahului",
+        "name": {
+            "fr": "Kahului, États-Unis",
+            "en": "Kahului, United States"
+        },
+        "keywords": {
+            "fr": ["Maui", "aéroport"],
+            "en": ["Maui", "airport"],
+            "postal": ["96732"]
+        },
+        "cityId": "82330"
+    },
+    {
+        "id": "kansas-city",
+        "name": {
+            "fr": "Kansas City, États-Unis",
+            "en": "Kansas City, United States"
+        },
+        "keywords": {
+            "fr": ["Country Club Plaza", "jazz"],
+            "en": ["Country Club Plaza", "jazz"],
+            "postal": ["64106"]
+        },
+        "cityId": "80090"
+    },
+    {
+        "id": "katoomba",
+        "name": {
+            "fr": "Katoomba, Australie",
+            "en": "Katoomba, Australia"
+        },
+        "keywords": {
+            "fr": ["Blue Mountains", "Three Sisters"],
+            "en": ["Blue Mountains", "Three Sisters"],
+            "postal": ["2780"]
+        },
+        "cityId": "60435"
+    },
+    {
+        "id": "kauai",
+        "name": {
+            "fr": "Kauai, États-Unis",
+            "en": "Kauai, United States"
+        },
+        "keywords": {
+            "fr": ["Na Pali Coast", "Waimea Canyon"],
+            "en": ["Na Pali Coast", "Waimea Canyon"],
+            "postal": ["96746"]
+        },
+        "cityId": "1246"
+    },
+    {
+        "id": "kayenta",
+        "name": {
+            "fr": "Kayenta, États-Unis",
+            "en": "Kayenta, United States"
+        },
+        "keywords": {
+            "fr": ["Monument Valley"],
+            "en": ["Monument Valley"],
+            "postal": ["86033"]
+        },
+        "cityId": "125517"
+    },
+    {
+        "id": "kearny",
+        "name": {
+            "fr": "Kearny, États-Unis",
+            "en": "Kearny, United States"
+        },
+        "keywords": {
+            "fr": ["New Jersey", "meadows"],
+            "en": ["New Jersey", "meadows"],
+            "postal": ["07032"]
+        },
+        "cityId": "81190"
+    },
+    {
+        "id": "key-west",
+        "name": {
+            "fr": "Key West, États-Unis",
+            "en": "Key West, United States"
+        },
+        "keywords": {
+            "fr": ["Southernmost Point", "Ernest Hemingway"],
+            "en": ["Southernmost Point", "Ernest Hemingway"],
+            "postal": ["33040"]
+        },
+        "cityId": "79844"
+    },
+    {
+        "id": "kiel",
+        "name": {
+            "fr": "Kiel, Allemagne",
+            "en": "Kiel, Germany"
+        },
+        "keywords": {
+            "fr": ["Kieler Woche", "canal de Kiel"],
+            "en": ["Kiel Week", "Kiel Canal"],
+            "postal": ["24103"]
+        },
+        "cityId": "64775"
+    },
+    {
+        "id": "kissimmee",
+        "name": {
+            "fr": "Kissimmee, États-Unis",
+            "en": "Kissimmee, United States"
+        },
+        "keywords": {
+            "fr": ["Disney World", "Old Town"],
+            "en": ["Disney World", "Old Town"],
+            "postal": ["34741"]
+        },
+        "cityId": "79846"
+    },
+    {
+        "id": "klaipeda",
+        "name": {
+            "fr": "Klaipėda, Lituanie",
+            "en": "Klaipėda, Lithuania"
+        },
+        "keywords": {
+            "fr": ["port", "Courland Spit"],
+            "en": ["port", "Curonian Spit"],
+            "postal": ["91246"]
+        },
+        "cityId": "73367"
+    },
+    {
+        "id": "ko-samui",
+        "name": {
+            "fr": "Ko Samui, Thaïlande",
+            "en": "Ko Samui, Thailand"
+        },
+        "keywords": {
+            "fr": ["plages", "Big Buddha"],
+            "en": ["beaches", "Big Buddha"],
+            "postal": ["84140"]
+        },
+        "cityId": "78483"
+    },
+    {
+        "id": "koflach",
+        "name": {
+            "fr": "Köflach, Autriche",
+            "en": "Köflach, Austria"
+        },
+        "keywords": {
+            "fr": ["Styrie", "montagnes"],
+            "en": ["Styria", "mountains"],
+            "postal": ["8580"]
+        },
+        "cityId": "83755"
+    },
+    {
+        "id": "krakow",
+        "name": {
+            "fr": "Cracovie, Pologne",
+            "en": "Krakow, Poland"
+        },
+        "keywords": {
+            "fr": ["Rynek Główny", "château de Wawel"],
+            "en": ["Main Market Square", "Wawel Castle"],
+            "postal": ["31-001"]
+        },
+        "cityId": "46"
+    },
+    {
+        "id": "kuala-lumpur",
+        "name": {
+            "fr": "Kuala Lumpur, Malaisie",
+            "en": "Kuala Lumpur, Malaysia"
+        },
+        "keywords": {
+            "fr": ["tours Petronas", "Batu Caves"],
+            "en": ["Petronas Towers", "Batu Caves"],
+            "postal": ["50088"]
+        },
+        "cityId": "74416"
+    },
+    {
+        "id": "kusadasi",
+        "name": {
+            "fr": "Kuşadası, Turquie",
+            "en": "Kuşadası, Turkey"
+        },
+        "keywords": {
+            "fr": ["Éphèse", "plages"],
+            "en": ["Ephesus", "beaches"],
+            "postal": ["09400"]
+        },
+        "cityId": "78863"
+    },
+    {
+        "id": "kutna-hora",
+        "name": {
+            "fr": "Kutná Hora, République Tchèque",
+            "en": "Kutná Hora, Czech Republic"
+        },
+        "keywords": {
+            "fr": ["ossuaire de Sedlec", "cathédrale Sainte-Barbe"],
+            "en": ["Sedlec Ossuary", "St. Barbara's Cathedral"],
+            "postal": ["284 01"]
+        },
+        "cityId": "64187"
+    },
+    {
+        "id": "kyoto",
+        "name": {
+            "fr": "Kyoto, Japon",
+            "en": "Kyoto, Japan"
+        },
+        "keywords": {
+            "fr": ["temple Kinkaku-ji", "quartier Gion"],
+            "en": ["Kinkaku-ji temple", "Gion district"],
+            "postal": ["600-8216"]
+        },
+        "cityId": "72420"
+    },
+    {
+        "id": "la-fleche",
+        "name": {
+            "fr": "La Flèche, France",
+            "en": "La Flèche, France"
+        },
+        "keywords": {
+            "fr": ["Prytanée militaire", "zoo de La Flèche"],
+            "en": ["Military Prytanée", "La Flèche Zoo"],
+            "postal": ["72200"]
+        },
+        "cityId": "66907"
+    },
+    {
+        "id": "la-rochelle",
+        "name": {
+            "fr": "La Rochelle, France",
+            "en": "La Rochelle, France"
+        },
+        "keywords": {
+            "fr": ["vieux port", "tour de la Lanterne"],
+            "en": ["old port", "Lanterne Tower"],
+            "postal": ["17000"]
+        },
+        "cityId": "66897"
+    },
+    {
+        "id": "langkawi",
+        "name": {
+            "fr": "Langkawi, Malaisie",
+            "en": "Langkawi, Malaysia"
+        },
+        "keywords": {
+            "fr": ["plages", "cable car"],
+            "en": ["beaches", "cable car"],
+            "postal": ["07000"]
+        },
+        "cityId": "772"
+    },
+    {
+        "id": "laren",
+        "name": {
+            "fr": "Laren, Pays-Bas",
+            "en": "Laren, Netherlands"
+        },
+        "keywords": {
+            "fr": ["Singer Museum"],
+            "en": ["Singer Museum"],
+            "postal": ["1251"]
+        },
+        "cityId": "111406"
+    },
+    {
+        "id": "las-vegas",
+        "name": {
+            "fr": "Las Vegas, États-Unis",
+            "en": "Las Vegas, United States"
+        },
+        "keywords": {
+            "fr": ["Strip", "Casinos", "spectacles"],
+            "en": ["Strip", "Casinos", "shows"],
+            "postal": ["89109"]
+        },
+        "cityId": "82073"
+    },
+    {
+        "id": "lausanne",
+        "name": {
+            "fr": "Lausanne, Suisse",
+            "en": "Lausanne, Switzerland"
+        },
+        "keywords": {
+            "fr": ["cathédrale", "olympisme"],
+            "en": ["cathedral", "Olympics"],
+            "postal": ["1003"]
+        },
+        "cityId": "62666"
+    },
+    {
+        "id": "lauterbrunnen",
+        "name": {
+            "fr": "Lauterbrunnen, Suisse",
+            "en": "Lauterbrunnen, Switzerland"
+        },
+        "keywords": {
+            "fr": ["chutes Staubbach", "vallée"],
+            "en": ["Staubbach Falls", "valley"],
+            "postal": ["3822"]
+        },
+        "cityId": "137907"
+    },
+    {
+        "id": "le-mont-saint-michel",
+        "name": {
+            "fr": "Le Mont-Saint-Michel, France",
+            "en": "Mont-Saint-Michel, France"
+        },
+        "keywords": {
+            "fr": ["abbaye", "baie"],
+            "en": ["abbey", "bay"],
+            "postal": ["50170"]
+        },
+        "cityId": "260936"
+    },
+    {
+        "id": "leeuwarden",
+        "name": {
+            "fr": "Leeuwarden, Pays-Bas",
+            "en": "Leeuwarden, Netherlands"
+        },
+        "keywords": {
+            "fr": ["Frise", "Oldehove"],
+            "en": ["Friesland", "Oldehove"],
+            "postal": ["8911"]
+        },
+        "cityId": "74943"
+    },
+    {
+        "id": "leiden",
+        "name": {
+            "fr": "Leyde, Pays-Bas",
+            "en": "Leiden, Netherlands"
+        },
+        "keywords": {
+            "fr": ["université", "musées"],
+            "en": ["university", "museums"],
+            "postal": ["2311"]
+        },
+        "cityId": "74942"
+    },
+    {
+        "id": "leipzig",
+        "name": {
+            "fr": "Leipzig, Allemagne",
+            "en": "Leipzig, Germany"
+        },
+        "keywords": {
+            "fr": ["église Saint-Thomas", "foire"],
+            "en": ["St. Thomas Church", "trade fair"],
+            "postal": ["04109"]
+        },
+        "cityId": "64715"
+    },
+    {
+        "id": "lelystad",
+        "name": {
+            "fr": "Lelystad, Pays-Bas",
+            "en": "Lelystad, Netherlands"
+        },
+        "keywords": {
+            "fr": ["Flevoland", "Batavia Stad"],
+            "en": ["Flevoland", "Batavia Stad"],
+            "postal": ["8201"]
+        },
+        "cityId": "74940"
+    },
+    {
+        "id": "les-diablerets",
+        "name": {
+            "fr": "Les Diablerets, Suisse",
+            "en": "Les Diablerets, Switzerland"
+        },
+        "keywords": {
+            "fr": ["ski", "Glacier 3000"],
+            "en": ["skiing", "Glacier 3000"],
+            "postal": ["1865"]
+        },
+        "cityId": "261269"
+    },
+    {
+        "id": "les-epesses",
+        "name": {
+            "fr": "Les Epesses, France",
+            "en": "Les Epesses, France"
+        },
+        "keywords": {
+            "fr": ["Puy du Fou"],
+            "en": ["Puy du Fou"],
+            "postal": ["85590"]
+        },
+        "cityId": "180481"
+    },
+    {
+        "id": "les-sables-dolonne",
+        "name": {
+            "fr": "Les Sables-d'Olonne, France",
+            "en": "Les Sables-d'Olonne, France"
+        },
+        "keywords": {
+            "fr": ["plage", "Vendée Globe"],
+            "en": ["beach", "Vendée Globe"],
+            "postal": ["85100"]
+        },
+        "cityId": "66864"
+    },
+    {
+        "id": "leticia",
+        "name": {
+            "fr": "Leticia, Colombie",
+            "en": "Leticia, Colombia"
+        },
+        "keywords": {
+            "fr": ["Amazonie", "frontière"],
+            "en": ["Amazon", "border"],
+            "postal": ["910001"]
+        },
+        "cityId": "63843"
+    },
+    {
+        "id": "liberia",
+        "name": {
+            "fr": "Liberia, Costa Rica",
+            "en": "Liberia, Costa Rica"
+        },
+        "keywords": {
+            "fr": ["Guanacaste", "aéroport"],
+            "en": ["Guanacaste", "airport"],
+            "postal": ["50101"]
+        },
+        "cityId": "63976"
+    },
+    {
+        "id": "lido-di-jesolo",
+        "name": {
+            "fr": "Lido di Jesolo, Italie",
+            "en": "Lido di Jesolo, Italy"
+        },
+        "keywords": {
+            "fr": ["plage", "Vénétie"],
+            "en": ["beach", "Veneto"],
+            "postal": ["30016"]
+        },
+        "cityId": "71809"
+    },
+    {
+        "id": "lille",
+        "name": {
+            "fr": "Lille, France",
+            "en": "Lille, France"
+        },
+        "keywords": {
+            "fr": ["Grand-Place", "Vieux-Lille"],
+            "en": ["Grand Place", "Old Lille"],
+            "postal": ["59000"]
+        },
+        "cityId": "66858"
+    },
+    {
+        "id": "lima",
+        "name": {
+            "fr": "Lima, Pérou",
+            "en": "Lima, Peru"
+        },
+        "keywords": {
+            "fr": ["centre historique", "Miraflores"],
+            "en": ["historic center", "Miraflores"],
+            "postal": ["15001"]
+        },
+        "cityId": "75306"
+    },
+    {
+        "id": "lisbon",
+        "name": {
+            "fr": "Lisbonne, Portugal",
+            "en": "Lisbon, Portugal"
+        },
+        "keywords": {
+            "fr": ["tram 28", "Belém", "Alfama"],
+            "en": ["tram 28", "Belém", "Alfama"],
+            "postal": ["1100"]
+        },
+        "cityId": "76528"
+    },
+    {
+        "id": "liverpool",
+        "name": {
+            "fr": "Liverpool, Royaume-Uni",
+            "en": "Liverpool, United Kingdom"
+        },
+        "keywords": {
+            "fr": ["The Beatles", "Albert Dock"],
+            "en": ["The Beatles", "Albert Dock"],
+            "postal": ["L1"]
+        },
+        "cityId": "67463"
+    },
+    {
+        "id": "livorno",
+        "name": {
+            "fr": "Livourne, Italie",
+            "en": "Livorno, Italy"
+        },
+        "keywords": {
+            "fr": ["port", "Toscane"],
+            "en": ["port", "Tuscany"],
+            "postal": ["57121"]
+        },
+        "cityId": "71786"
+    },
+    {
+        "id": "ljubljana",
+        "name": {
+            "fr": "Ljubljana, Slovénie",
+            "en": "Ljubljana, Slovenia"
+        },
+        "keywords": {
+            "fr": ["château de Ljubljana", "Triple Bridge"],
+            "en": ["Ljubljana Castle", "Triple Bridge"],
+            "postal": ["1000"]
+        },
+        "cityId": "78133"
+    },
+    {
+        "id": "london",
+        "name": {
+            "fr": "Londres, Royaume-Uni",
+            "en": "London, United Kingdom"
+        },
+        "keywords": {
+            "fr": ["Big Ben", "Tower Bridge", "British Museum"],
+            "en": ["Big Ben", "Tower Bridge", "British Museum"],
+            "postal": ["SW1A"]
+        },
+        "cityId": "67458"
+    },
+    {
+        "id": "los-angeles",
+        "name": {
+            "fr": "Los Angeles, États-Unis",
+            "en": "Los Angeles, United States"
+        },
+        "keywords": {
+            "fr": ["Hollywood", "Walk of Fame", "Santa Monica"],
+            "en": ["Hollywood", "Walk of Fame", "Santa Monica"],
+            "postal": ["90012"]
+        },
+        "cityId": "81810"
+    },
+    {
+        "id": "loxahatchee",
+        "name": {
+            "fr": "Loxahatchee, États-Unis",
+            "en": "Loxahatchee, United States"
+        },
+        "keywords": {
+            "fr": ["Lion Country Safari"],
+            "en": ["Lion Country Safari"],
+            "postal": ["33470"]
+        },
+        "cityId": "248469"
+    },
+    {
+        "id": "lucca",
+        "name": {
+            "fr": "Lucques, Italie",
+            "en": "Lucca, Italy"
+        },
+        "keywords": {
+            "fr": ["murailles", "Piazza dell'Anfiteatro"],
+            "en": ["walls", "Piazza dell'Anfiteatro"],
+            "postal": ["55100"]
+        },
+        "cityId": "71784"
+    },
+    {
+        "id": "lyon",
+        "name": {
+            "fr": "Lyon, France",
+            "en": "Lyon, France"
+        },
+        "keywords": {
+            "fr": ["Fourvière", "Vieux Lyon", "Presqu'île"],
+            "en": ["Fourvière", "Old Lyon", "Presqu'île"],
+            "postal": ["69001"]
+        },
+        "cityId": "66838"
+    },
+    {
+        "id": "maastricht",
+        "name": {
+            "fr": "Maastricht, Pays-Bas",
+            "en": "Maastricht, Netherlands"
+        },
+        "keywords": {
+            "fr": ["Vrijthof", "pont Saint-Servais"],
+            "en": ["Vrijthof", "St. Servatius Bridge"],
+            "postal": ["6211"]
+        },
+        "cityId": "74931"
+    },
+    {
+        "id": "macau",
+        "name": {
+            "fr": "Macao, Chine",
+            "en": "Macau, China"
+        },
+        "keywords": {
+            "fr": ["ruines Saint-Paul", "casinos"],
+            "en": ["Ruins of St. Paul's", "casinos"],
+            "postal": []
+        },
+        "cityId": "47"
+    },
+    {
+        "id": "madrid",
+        "name": {
+            "fr": "Madrid, Espagne",
+            "en": "Madrid, Spain"
+        },
+        "keywords": {
+            "fr": ["Prado", "Puerta del Sol", "Retiro"],
+            "en": ["Prado", "Puerta del Sol", "Retiro"],
+            "postal": ["28001"]
+        },
+        "cityId": "66254"
+    },
+    {
+        "id": "malaga",
+        "name": {
+            "fr": "Malaga, Espagne",
+            "en": "Málaga, Spain"
+        },
+        "keywords": {
+            "fr": ["Alcazaba", "musée Picasso"],
+            "en": ["Alcazaba", "Picasso Museum"],
+            "postal": ["29001"]
+        },
+        "cityId": "32"
+    },
+    {
+        "id": "mallorca",
+        "name": {
+            "fr": "Majorque, Espagne",
+            "en": "Mallorca, Spain"
+        },
+        "keywords": {
+            "fr": ["Palma", "plages", "Sierra de Tramuntana"],
+            "en": ["Palma", "beaches", "Sierra de Tramuntana"],
+            "postal": ["07001"]
+        },
+        "cityId": "471"
+    },
+    {
+        "id": "manchester",
+        "name": {
+            "fr": "Manchester, Royaume-Uni",
+            "en": "Manchester, United Kingdom"
+        },
+        "keywords": {
+            "fr": ["Old Trafford", "Northern Quarter"],
+            "en": ["Old Trafford", "Northern Quarter"],
+            "postal": ["M1"]
+        },
+        "cityId": "67441"
+    },
+    {
+        "id": "manta",
+        "name": {
+            "fr": "Manta, Équateur",
+            "en": "Manta, Ecuador"
+        },
+        "keywords": {
+            "fr": ["plage", "port"],
+            "en": ["beach", "port"],
+            "postal": ["130108"]
+        },
+        "cityId": "207794"
+    },
+    {
+        "id": "marmaris",
+        "name": {
+            "fr": "Marmaris, Turquie",
+            "en": "Marmaris, Turkey"
+        },
+        "keywords": {
+            "fr": ["baie", "vieille ville"],
+            "en": ["bay", "old town"],
+            "postal": ["48700"]
+        },
+        "cityId": "78854"
+    },
+    {
+        "id": "marseille",
+        "name": {
+            "fr": "Marseille, France",
+            "en": "Marseille, France"
+        },
+        "keywords": {
+            "fr": ["Vieux-Port", "Notre-Dame de la Garde", "Calanques"],
+            "en": ["Old Port", "Notre-Dame de la Garde", "Calanques"],
+            "postal": ["13001"]
+        },
+        "cityId": "66825"
+    },
+    {
+        "id": "matera",
+        "name": {
+            "fr": "Matera, Italie",
+            "en": "Matera, Italy"
+        },
+        "keywords": {
+            "fr": ["Sassi", "habitations troglodytiques"],
+            "en": ["Sassi", "cave dwellings"],
+            "postal": ["75100"]
+        },
+        "cityId": "71760"
+    },
+    {
+        "id": "mechelen",
+        "name": {
+            "fr": "Malines, Belgique",
+            "en": "Mechelen, Belgium"
+        },
+        "keywords": {
+            "fr": ["cathédrale Saint-Rombaut", "carillon"],
+            "en": ["St. Rumbold's Cathedral", "carillon"],
+            "postal": ["2800"]
+        },
+        "cityId": "60769"
+    },
+    {
+        "id": "medellin",
+        "name": {
+            "fr": "Medellín, Colombie",
+            "en": "Medellín, Colombia"
+        },
+        "keywords": {
+            "fr": ["métrocable", "Botero"],
+            "en": ["Metrocable", "Botero"],
+            "postal": ["050001"]
+        },
+        "cityId": "63829"
+    },
+    {
+        "id": "melaka",
+        "name": {
+            "fr": "Melaka, Malaisie",
+            "en": "Melaka, Malaysia"
+        },
+        "keywords": {
+            "fr": ["Jonker Walk", "Stadthuys"],
+            "en": ["Jonker Walk", "Stadthuys"],
+            "postal": ["75000"]
+        },
+        "cityId": "74395"
+    },
+    {
+        "id": "melbourne",
+        "name": {
+            "fr": "Melbourne, Australie",
+            "en": "Melbourne, Australia"
+        },
+        "keywords": {
+            "fr": ["Federation Square", "Great Ocean Road"],
+            "en": ["Federation Square", "Great Ocean Road"],
+            "postal": ["3000"]
+        },
+        "cityId": "60426"
+    },
+    {
+        "id": "memphis",
+        "name": {
+            "fr": "Memphis, États-Unis",
+            "en": "Memphis, United States"
+        },
+        "keywords": {
+            "fr": ["Graceland", "Beale Street"],
+            "en": ["Graceland", "Beale Street"],
+            "postal": ["38103"]
+        },
+        "cityId": "80554"
+    },
+    {
+        "id": "metz",
+        "name": {
+            "fr": "Metz, France",
+            "en": "Metz, France"
+        },
+        "keywords": {
+            "fr": ["cathédrale Saint-Étienne", "Centre Pompidou-Metz"],
+            "en": ["Saint-Étienne Cathedral", "Centre Pompidou-Metz"],
+            "postal": ["57000"]
+        },
+        "cityId": "66814"
+    },
+    {
+        "id": "mexico-city",
+        "name": {
+            "fr": "Mexico, Mexique",
+            "en": "Mexico City, Mexico"
+        },
+        "keywords": {
+            "fr": ["Zócalo", "musée Frida Kahlo"],
+            "en": ["Zócalo", "Frida Kahlo Museum"],
+            "postal": ["06000"]
+        },
+        "cityId": "74040"
+    },
+    {
+        "id": "miami",
+        "name": {
+            "fr": "Miami, États-Unis",
+            "en": "Miami, United States"
+        },
+        "keywords": {
+            "fr": ["South Beach", "Art Deco District"],
+            "en": ["South Beach", "Art Deco District"],
+            "postal": ["33132"]
+        },
+        "cityId": "79868"
+    },
+    {
+        "id": "milan",
+        "name": {
+            "fr": "Milan, Italie",
+            "en": "Milan, Italy"
+        },
+        "keywords": {
+            "fr": ["Duomo", "La Scala", "Galleria Vittorio Emanuele II"],
+            "en": ["Duomo", "La Scala", "Galleria Vittorio Emanuele II"],
+            "postal": ["20121"]
+        },
+        "cityId": "71749"
+    },
+    {
+        "id": "minneapolis",
+        "name": {
+            "fr": "Minneapolis, États-Unis",
+            "en": "Minneapolis, United States"
+        },
+        "keywords": {
+            "fr": ["Mall of America", "lacs"],
+            "en": ["Mall of America", "lakes"],
+            "postal": ["55401"]
+        },
+        "cityId": "81094"
+    },
+    {
+        "id": "modena",
+        "name": {
+            "fr": "Modène, Italie",
+            "en": "Modena, Italy"
+        },
+        "keywords": {
+            "fr": ["cathédrale", "balsamique"],
+            "en": ["cathedral", "balsamic"],
+            "postal": ["41121"]
+        },
+        "cityId": "71744"
+    },
+    {
+        "id": "monaco",
+        "name": {
+            "fr": "Monaco",
+            "en": "Monaco"
+        },
+        "keywords": {
+            "fr": ["Casino de Monte-Carlo", "Palais princier"],
+            "en": ["Monte Carlo Casino", "Prince's Palace"],
+            "postal": ["98000"]
+        },
+        "cityId": "73505"
+    },
+    {
+        "id": "monterosso-al-mare",
+        "name": {
+            "fr": "Monterosso al Mare, Italie",
+            "en": "Monterosso al Mare, Italy"
+        },
+        "keywords": {
+            "fr": ["Cinque Terre", "plage"],
+            "en": ["Cinque Terre", "beach"],
+            "postal": ["19016"]
+        },
+        "cityId": "207409"
+    },
+    {
+        "id": "monteux",
+        "name": {
+            "fr": "Monteux, France",
+            "en": "Monteux, France"
+        },
+        "keywords": {
+            "fr": ["Provence", "festival"],
+            "en": ["Provence", "festival"],
+            "postal": ["84170"]
+        },
+        "cityId": "96478"
+    },
+    {
+        "id": "montevideo",
+        "name": {
+            "fr": "Montevideo, Uruguay",
+            "en": "Montevideo, Uruguay"
+        },
+        "keywords": {
+            "fr": ["Rambla", "vieille ville"],
+            "en": ["Rambla", "old town"],
+            "postal": ["11000"]
+        },
+        "cityId": "82413"
+    },
+    {
+        "id": "montpellier",
+        "name": {
+            "fr": "Montpellier, France",
+            "en": "Montpellier, France"
+        },
+        "keywords": {
+            "fr": ["place de la Comédie", "Promenade du Peyrou"],
+            "en": ["Comedy Square", "Peyrou Promenade"],
+            "postal": ["34000"]
+        },
+        "cityId": "66788"
+    },
+    {
+        "id": "montreal",
+        "name": {
+            "fr": "Montréal, Canada",
+            "en": "Montreal, Canada"
+        },
+        "keywords": {
+            "fr": ["Vieux-Montréal", "Mont Royal"],
+            "en": ["Old Montreal", "Mount Royal"],
+            "postal": ["H2Y"]
+        },
+        "cityId": "25"
+    },
+    {
+        "id": "moscow",
+        "name": {
+            "fr": "Moscou, Russie",
+            "en": "Moscow, Russia"
+        },
+        "keywords": {
+            "fr": ["place Rouge", "Kremlin"],
+            "en": ["Red Square", "Kremlin"],
+            "postal": ["101000"]
+        },
+        "cityId": "77231"
+    },
+    {
+        "id": "munich",
+        "name": {
+            "fr": "Munich, Allemagne",
+            "en": "Munich, Germany"
+        },
+        "keywords": {
+            "fr": ["Marienplatz", "Oktoberfest", "English Garden"],
+            "en": ["Marienplatz", "Oktoberfest", "English Garden"],
+            "postal": ["80331"]
+        },
+        "cityId": "31"
+    },
+    {
+        "id": "muscat",
+        "name": {
+            "fr": "Mascate, Oman",
+            "en": "Muscat, Oman"
+        },
+        "keywords": {
+            "fr": ["Grande Mosquée", "palais royal"],
+            "en": ["Grand Mosque", "Royal Palace"],
+            "postal": ["113"]
+        },
+        "cityId": "75189"
+    },
+    {
+        "id": "myrtle-beach",
+        "name": {
+            "fr": "Myrtle Beach, États-Unis",
+            "en": "Myrtle Beach, United States"
+        },
+        "keywords": {
+            "fr": ["plage", "promenade"],
+            "en": ["beach", "boardwalk"],
+            "postal": ["29577"]
+        },
+        "cityId": "80512"
+    },
+    {
+        "id": "naantali",
+        "name": {
+            "fr": "Naantali, Finlande",
+            "en": "Naantali, Finland"
+        },
+        "keywords": {
+            "fr": ["Moomin World", "vieille ville"],
+            "en": ["Moomin World", "old town"],
+            "postal": ["21100"]
+        },
+        "cityId": "95595"
+    },
+    {
+        "id": "nantes",
+        "name": {
+            "fr": "Nantes, France",
+            "en": "Nantes, France"
+        },
+        "keywords": {
+            "fr": ["château des Ducs", "Machines de l'île"],
+            "en": ["Castle of the Dukes", "Machines of the Isle"],
+            "postal": ["44000"]
+        },
+        "cityId": "66776"
+    },
+    {
+        "id": "naples",
+        "name": {
+            "fr": "Naples, Italie",
+            "en": "Naples, Italy"
+        },
+        "keywords": {
+            "fr": ["Pompéi", "pizza", "baie"],
+            "en": ["Pompeii", "pizza", "bay"],
+            "postal": ["80100"]
+        },
+        "cityId": "71720"
+    },
+    {
+        "id": "nara",
+        "name": {
+            "fr": "Nara, Japon",
+            "en": "Nara, Japan"
+        },
+        "keywords": {
+            "fr": ["parc aux daims", "Todai-ji"],
+            "en": ["deer park", "Todai-ji"],
+            "postal": ["630-8211"]
+        },
+        "cityId": "72353"
+    },
+    {
+        "id": "nashville",
+        "name": {
+            "fr": "Nashville, États-Unis",
+            "en": "Nashville, United States"
+        },
+        "keywords": {
+            "fr": ["Country Music Hall of Fame", "Grand Ole Opry"],
+            "en": ["Country Music Hall of Fame", "Grand Ole Opry"],
+            "postal": ["37201"]
+        },
+        "cityId": "82353"
+    },
+    {
+        "id": "nerja",
+        "name": {
+            "fr": "Nerja, Espagne",
+            "en": "Nerja, Spain"
+        },
+        "keywords": {
+            "fr": ["Balcon de l'Europe", "grottes"],
+            "en": ["Balcony of Europe", "caves"],
+            "postal": ["29780"]
+        },
+        "cityId": "65926"
+    },
+    {
+        "id": "nevsehir",
+        "name": {
+            "fr": "Nevşehir, Turquie",
+            "en": "Nevşehir, Turkey"
+        },
+        "keywords": {
+            "fr": ["Cappadoce", "Göreme"],
+            "en": ["Cappadocia", "Göreme"],
+            "postal": ["50000"]
+        },
+        "cityId": "78844"
+    },
+    {
+        "id": "new-orleans",
+        "name": {
+            "fr": "La Nouvelle-Orléans, États-Unis",
+            "en": "New Orleans, United States"
+        },
+        "keywords": {
+            "fr": ["French Quarter", "Mardi Gras"],
+            "en": ["French Quarter", "Mardi Gras"],
+            "postal": ["70112"]
+        },
+        "cityId": "80162"
+    },
+    {
+        "id": "new-york",
+        "name": {
+            "fr": "New York, États-Unis",
+            "en": "New York, United States"
+        },
+        "keywords": {
+            "fr": ["Times Square", "Statue de la Liberté", "Central Park"],
+            "en": ["Times Square", "Statue of Liberty", "Central Park"],
+            "postal": ["10001"]
+        },
+        "cityId": "260932"
+    },
+    {
+        "id": "newcastle",
+        "name": {
+            "fr": "Newcastle, Royaume-Uni",
+            "en": "Newcastle, United Kingdom"
+        },
+        "keywords": {
+            "fr": ["Tyne Bridge", "vieille ville"],
+            "en": ["Tyne Bridge", "old town"],
+            "postal": ["NE1"]
+        },
+        "cityId": "185710"
+    },
+    {
+        "id": "niagara-falls-ca",
+        "name": {
+            "fr": "Chutes du Niagara, Canada",
+            "en": "Niagara Falls, Canada"
+        },
+        "keywords": {
+            "fr": ["chutes", "Hornblower"],
+            "en": ["falls", "Hornblower"],
+            "postal": ["L2E"]
+        },
+        "cityId": "62419"
+    },
+    {
+        "id": "niagara-falls-us",
+        "name": {
+            "fr": "Chutes du Niagara, États-Unis",
+            "en": "Niagara Falls, United States"
+        },
+        "keywords": {
+            "fr": ["chutes", "Maid of the Mist"],
+            "en": ["falls", "Maid of the Mist"],
+            "postal": ["14301"]
+        },
+        "cityId": "81337"
+    },
+    {
+        "id": "niagara-on-the-lake",
+        "name": {
+            "fr": "Niagara-on-the-Lake, Canada",
+            "en": "Niagara-on-the-Lake, Canada"
+        },
+        "keywords": {
+            "fr": ["vignobles", "théâtre Shaw"],
+            "en": ["vineyards", "Shaw Festival"],
+            "postal": ["L0S"]
+        },
+        "cityId": "982"
+    },
+    {
+        "id": "nice",
+        "name": {
+            "fr": "Nice, France",
+            "en": "Nice, France"
+        },
+        "keywords": {
+            "fr": ["Promenade des Anglais", "Vieille Ville"],
+            "en": ["Promenade des Anglais", "Old Town"],
+            "postal": ["06000"]
+        },
+        "cityId": "66770"
+    },
+    {
+        "id": "nijmegen",
+        "name": {
+            "fr": "Nimègue, Pays-Bas",
+            "en": "Nijmegen, Netherlands"
+        },
+        "keywords": {
+            "fr": ["plus vieille ville", "Valkhof"],
+            "en": ["oldest city", "Valkhof"],
+            "postal": ["6511"]
+        },
+        "cityId": "74919"
+    },
+    {
+        "id": "nuenen",
+        "name": {
+            "fr": "Nuenen, Pays-Bas",
+            "en": "Nuenen, Netherlands"
+        },
+        "keywords": {
+            "fr": ["Van Gogh", "moulin"],
+            "en": ["Van Gogh", "windmill"],
+            "postal": ["5671"]
+        },
+        "cityId": "74916"
+    },
+    {
+        "id": "nusajaya",
+        "name": {
+            "fr": "Nusajaya, Malaisie",
+            "en": "Nusajaya, Malaysia"
+        },
+        "keywords": {
+            "fr": ["Legoland", "Iskandar Malaysia"],
+            "en": ["Legoland", "Iskandar Malaysia"],
+            "postal": ["79100"]
+        },
+        "cityId": "194489"
+    },
+    {
+        "id": "ocho-rios",
+        "name": {
+            "fr": "Ocho Rios, Jamaïque",
+            "en": "Ocho Rios, Jamaica"
+        },
+        "keywords": {
+            "fr": ["Dunn's River Falls"],
+            "en": ["Dunn's River Falls"],
+            "postal": []
+        },
+        "cityId": "106481"
+    },
+    {
+        "id": "oludeniz",
+        "name": {
+            "fr": "Ölüdeniz, Turquie",
+            "en": "Ölüdeniz, Turkey"
+        },
+        "keywords": {
+            "fr": ["Blue Lagoon", "parapente"],
+            "en": ["Blue Lagoon", "paragliding"],
+            "postal": ["48340"]
+        },
+        "cityId": "245910"
+    },
+    {
+        "id": "oostende",
+        "name": {
+            "fr": "Ostende, Belgique",
+            "en": "Oostende, Belgium"
+        },
+        "keywords": {
+            "fr": ["plage", "casino"],
+            "en": ["beach", "casino"],
+            "postal": ["8400"]
+        },
+        "cityId": "60750"
+    },
+    {
+        "id": "orlando",
+        "name": {
+            "fr": "Orlando, États-Unis",
+            "en": "Orlando, United States"
+        },
+        "keywords": {
+            "fr": ["Disney World", "Universal Studios"],
+            "en": ["Disney World", "Universal Studios"],
+            "postal": ["32801"]
+        },
+        "cityId": "79889"
+    },
+    {
+        "id": "orvieto",
+        "name": {
+            "fr": "Orvieto, Italie",
+            "en": "Orvieto, Italy"
+        },
+        "keywords": {
+            "fr": ["Duomo", "puits de Saint-Patrice"],
+            "en": ["Duomo", "St. Patrick's Well"],
+            "postal": ["05018"]
+        },
+        "cityId": "71696"
+    },
+    {
+        "id": "osaka",
+        "name": {
+            "fr": "Osaka, Japon",
+            "en": "Osaka, Japan"
+        },
+        "keywords": {
+            "fr": ["château d'Osaka", "Dotonbori"],
+            "en": ["Osaka Castle", "Dotonbori"],
+            "postal": ["530-0001"]
+        },
+        "cityId": "28"
+    },
+    {
+        "id": "oslo",
+        "name": {
+            "fr": "Oslo, Norvège",
+            "en": "Oslo, Norway"
+        },
+        "keywords": {
+            "fr": ["musée des Bateaux vikings", "Parc Vigeland"],
+            "en": ["Viking Ship Museum", "Vigeland Park"],
+            "postal": ["0151"]
+        },
+        "cityId": "75084"
+    },
+    {
+        "id": "ottawa",
+        "name": {
+            "fr": "Ottawa, Canada",
+            "en": "Ottawa, Canada"
+        },
+        "keywords": {
+            "fr": ["Colline du Parlement", "canal Rideau"],
+            "en": ["Parliament Hill", "Rideau Canal"],
+            "postal": ["K1P"]
+        },
+        "cityId": "62431"
+    },
+    {
+        "id": "oxford",
+        "name": {
+            "fr": "Oxford, Royaume-Uni",
+            "en": "Oxford, United Kingdom"
+        },
+        "keywords": {
+            "fr": ["université d'Oxford", "Christ Church"],
+            "en": ["University of Oxford", "Christ Church"],
+            "postal": ["OX1"]
+        },
+        "cityId": "67381"
+    },
+    {
+        "id": "padua",
+        "name": {
+            "fr": "Padoue, Italie",
+            "en": "Padua, Italy"
+        },
+        "keywords": {
+            "fr": ["chapelle des Scrovegni", "basilique Saint-Antoine"],
+            "en": ["Scrovegni Chapel", "Basilica of Saint Anthony"],
+            "postal": ["35100"]
+        },
+        "cityId": "138"
+    },
+    {
+        "id": "padula",
+        "name": {
+            "fr": "Padula, Italie",
+            "en": "Padula, Italy"
+        },
+        "keywords": {
+            "fr": ["chartreuse de Padula"],
+            "en": ["Padula Charterhouse"],
+            "postal": ["84034"]
+        },
+        "cityId": "105173"
+    },
+    {
+        "id": "palermo",
+        "name": {
+            "fr": "Palerme, Italie",
+            "en": "Palermo, Italy"
+        },
+        "keywords": {
+            "fr": ["cathédrale", "théâtre Massimo"],
+            "en": ["cathedral", "Teatro Massimo"],
+            "postal": ["90100"]
+        },
+        "cityId": "71428"
+    },
+    {
+        "id": "palm-springs",
+        "name": {
+            "fr": "Palm Springs, États-Unis",
+            "en": "Palm Springs, United States"
+        },
+        "keywords": {
+            "fr": ["désert", "téléphérique"],
+            "en": ["desert", "aerial tramway"],
+            "postal": ["92262"]
+        },
+        "cityId": "79898"
+    },
+    {
+        "id": "parabiago",
+        "name": {
+            "fr": "Parabiago, Italie",
+            "en": "Parabiago, Italy"
+        },
+        "keywords": {
+            "fr": ["Lombardie", "Milan"],
+            "en": ["Lombardy", "Milan"],
+            "postal": ["20015"]
+        },
+        "cityId": "71684"
+    },
+    {
+        "id": "pattaya",
+        "name": {
+            "fr": "Pattaya, Thaïlande",
+            "en": "Pattaya, Thailand"
+        },
+        "keywords": {
+            "fr": ["plages", "vie nocturne"],
+            "en": ["beaches", "nightlife"],
+            "postal": ["20150"]
+        },
+        "cityId": "48"
+    },
+    {
+        "id": "peaugres",
+        "name": {
+            "fr": "Peaugres, France",
+            "en": "Peaugres, France"
+        },
+        "keywords": {
+            "fr": ["Safari de Peaugres"],
+            "en": ["Peaugres Safari Park"],
+            "postal": ["07340"]
+        },
+        "cityId": "179024"
+    },
+    {
+        "id": "perugia",
+        "name": {
+            "fr": "Pérouse, Italie",
+            "en": "Perugia, Italy"
+        },
+        "keywords": {
+            "fr": ["fontaine Majeure", "chocolat"],
+            "en": ["Fontana Maggiore", "chocolate"],
+            "postal": ["06100"]
+        },
+        "cityId": "71679"
+    },
+    {
+        "id": "philadelphia",
+        "name": {
+            "fr": "Philadelphie, États-Unis",
+            "en": "Philadelphia, United States"
+        },
+        "keywords": {
+            "fr": ["Liberty Bell", "Independence Hall"],
+            "en": ["Liberty Bell", "Independence Hall"],
+            "postal": ["19106"]
+        },
+        "cityId": "80492"
+    },
+    {
+        "id": "phoenix",
+        "name": {
+            "fr": "Phoenix, États-Unis",
+            "en": "Phoenix, United States"
+        },
+        "keywords": {
+            "fr": ["désert", "Musée Heard"],
+            "en": ["desert", "Heard Museum"],
+            "postal": ["85004"]
+        },
+        "cityId": "81637"
+    },
+    {
+        "id": "pigeon-forge",
+        "name": {
+            "fr": "Pigeon Forge, États-Unis",
+            "en": "Pigeon Forge, United States"
+        },
+        "keywords": {
+            "fr": ["Dollywood", "Great Smoky Mountains"],
+            "en": ["Dollywood", "Great Smoky Mountains"],
+            "postal": ["37863"]
+        },
+        "cityId": "124347"
+    },
+    {
+        "id": "pisa",
+        "name": {
+            "fr": "Pise, Italie",
+            "en": "Pisa, Italy"
+        },
+        "keywords": {
+            "fr": ["tour penchée", "Piazza dei Miracoli"],
+            "en": ["Leaning Tower", "Piazza dei Miracoli"],
+            "postal": ["56100"]
+        },
+        "cityId": "260935"
+    },
+    {
+        "id": "playa-del-carmen",
+        "name": {
+            "fr": "Playa del Carmen, Mexique",
+            "en": "Playa del Carmen, Mexico"
+        },
+        "keywords": {
+            "fr": ["Riviera Maya", "Quinta Avenida"],
+            "en": ["Riviera Maya", "Fifth Avenue"],
+            "postal": ["77710"]
+        },
+        "cityId": "73927"
+    },
+    {
+        "id": "poitiers",
+        "name": {
+            "fr": "Poitiers, France",
+            "en": "Poitiers, France"
+        },
+        "keywords": {
+            "fr": ["Futuroscope", "cathédrale"],
+            "en": ["Futuroscope", "cathedral"],
+            "postal": ["86000"]
+        },
+        "cityId": "66735"
+    },
+    {
+        "id": "poole",
+        "name": {
+            "fr": "Poole, Royaume-Uni",
+            "en": "Poole, United Kingdom"
+        },
+        "keywords": {
+            "fr": ["port", "plage"],
+            "en": ["harbour", "beach"],
+            "postal": ["BH15"]
+        },
+        "cityId": "67363"
+    },
+    {
+        "id": "portland",
+        "name": {
+            "fr": "Portland, États-Unis",
+            "en": "Portland, United States"
+        },
+        "keywords": {
+            "fr": ["Parc Washington", "microbrasseries"],
+            "en": ["Washington Park", "microbreweries"],
+            "postal": ["97201"]
+        },
+        "cityId": "80975"
+    },
+    {
+        "id": "porto",
+        "name": {
+            "fr": "Porto, Portugal",
+            "en": "Porto, Portugal"
+        },
+        "keywords": {
+            "fr": ["pont Dom Luís I", "caves à vin"],
+            "en": ["Dom Luís I Bridge", "wine cellars"],
+            "postal": ["4000"]
+        },
+        "cityId": "177169"
+    },
+    {
+        "id": "porto-pt",
+        "name": {
+            "fr": "Porto, Portugal",
+            "en": "Porto, Portugal"
+        },
+        "keywords": {
+            "fr": ["livreur", "livraison"],
+            "en": ["delivery", "courier"],
+            "postal": ["4000"]
+        },
+        "cityId": "76573"
+    },
+    {
+        "id": "portsmouth",
+        "name": {
+            "fr": "Portsmouth, Royaume-Uni",
+            "en": "Portsmouth, United Kingdom"
+        },
+        "keywords": {
+            "fr": ["Spinnaker Tower", "HMS Victory"],
+            "en": ["Spinnaker Tower", "HMS Victory"],
+            "postal": ["PO1"]
+        },
+        "cityId": "67358"
+    },
+    {
+        "id": "potsdam",
+        "name": {
+            "fr": "Potsdam, Allemagne",
+            "en": "Potsdam, Germany"
+        },
+        "keywords": {
+            "fr": ["palais Sanssouci", "Brandebourg"],
+            "en": ["Sanssouci Palace", "Brandenburg"],
+            "postal": ["14467"]
+        },
+        "cityId": "64529"
+    },
+    {
+        "id": "pozza-di-fassa",
+        "name": {
+            "fr": "Pozza di Fassa, Italie",
+            "en": "Pozza di Fassa, Italy"
+        },
+        "keywords": {
+            "fr": ["Dolomites", "ski"],
+            "en": ["Dolomites", "skiing"],
+            "postal": ["38036"]
+        },
+        "cityId": "206622"
+    },
+    {
+        "id": "prague",
+        "name": {
+            "fr": "Prague, République Tchèque",
+            "en": "Prague, Czech Republic"
+        },
+        "keywords": {
+            "fr": ["château de Prague", "pont Charles"],
+            "en": ["Prague Castle", "Charles Bridge"],
+            "postal": ["110 00"]
+        },
+        "cityId": "64162"
+    },
+    {
+        "id": "puerto-iguazu",
+        "name": {
+            "fr": "Puerto Iguazú, Argentine",
+            "en": "Puerto Iguazú, Argentina"
+        },
+        "keywords": {
+            "fr": ["chutes d'Iguazú"],
+            "en": ["Iguazú Falls"],
+            "postal": ["3370"]
+        },
+        "cityId": "30"
+    },
+    {
+        "id": "puerto-vallarta",
+        "name": {
+            "fr": "Puerto Vallarta, Mexique",
+            "en": "Puerto Vallarta, Mexico"
+        },
+        "keywords": {
+            "fr": ["plages", "Malecon"],
+            "en": ["beaches", "Malecon"],
+            "postal": ["48300"]
+        },
+        "cityId": "74201"
+    },
+    {
+        "id": "puno",
+        "name": {
+            "fr": "Puno, Pérou",
+            "en": "Puno, Peru"
+        },
+        "keywords": {
+            "fr": ["lac Titicaca", "îles Uros"],
+            "en": ["Lake Titicaca", "Uros Islands"],
+            "postal": ["21001"]
+        },
+        "cityId": "75296"
+    },
+    {
+        "id": "quimbaya",
+        "name": {
+            "fr": "Quimbaya, Colombie",
+            "en": "Quimbaya, Colombia"
+        },
+        "keywords": {
+            "fr": ["culture Quimbaya", "parc national"],
+            "en": ["Quimbaya culture", "national park"],
+            "postal": ["633001"]
+        },
+        "cityId": "63796"
+    },
+    {
+        "id": "quito",
+        "name": {
+            "fr": "Quito, Équateur",
+            "en": "Quito, Ecuador"
+        },
+        "keywords": {
+            "fr": ["vieille ville", "Mitad del Mundo"],
+            "en": ["old town", "Mitad del Mundo"],
+            "postal": ["170135"]
+        },
+        "cityId": "65652"
+    },
+    {
+        "id": "reykholt",
+        "name": {
+            "fr": "Reykholt, Islande",
+            "en": "Reykholt, Iceland"
+        },
+        "keywords": {
+            "fr": ["Snorri Sturluson", "sources chaudes"],
+            "en": ["Snorri Sturluson", "hot springs"],
+            "postal": ["320"]
+        },
+        "cityId": "1320"
+    },
+    {
+        "id": "reykjavik",
+        "name": {
+            "fr": "Reykjavik, Islande",
+            "en": "Reykjavik, Iceland"
+        },
+        "keywords": {
+            "fr": ["Hallgrímskirkja", "Blue Lagoon"],
+            "en": ["Hallgrímskirkja", "Blue Lagoon"],
+            "postal": ["101"]
+        },
+        "cityId": "22"
+    },
+    {
+        "id": "riga",
+        "name": {
+            "fr": "Riga, Lettonie",
+            "en": "Riga, Latvia"
+        },
+        "keywords": {
+            "fr": ["vieille ville", "Art nouveau"],
+            "en": ["old town", "Art Nouveau"],
+            "postal": ["LV-1050"]
+        },
+        "cityId": "73383"
+    },
+    {
+        "id": "rimini",
+        "name": {
+            "fr": "Rimini, Italie",
+            "en": "Rimini, Italy"
+        },
+        "keywords": {
+            "fr": ["plages", "arc d'Auguste"],
+            "en": ["beaches", "Arch of Augustus"],
+            "postal": ["47921"]
+        },
+        "cityId": "71634"
+    },
+    {
+        "id": "rio-de-janeiro",
+        "name": {
+            "fr": "Rio de Janeiro, Brésil",
+            "en": "Rio de Janeiro, Brazil"
+        },
+        "keywords": {
+            "fr": ["Christ Rédempteur", "Copacabana"],
+            "en": ["Christ the Redeemer", "Copacabana"],
+            "postal": ["20040"]
+        },
+        "cityId": "61535"
+    },
+    {
+        "id": "rome",
+        "name": {
+            "fr": "Rome, Italie",
+            "en": "Rome, Italy"
+        },
+        "keywords": {
+            "fr": ["Colisée", "Vatican", "fontaine de Trevi"],
+            "en": ["Colosseum", "Vatican", "Trevi Fountain"],
+            "postal": ["00186"]
+        },
+        "cityId": "71631"
+    },
+    {
+        "id": "ronda",
+        "name": {
+            "fr": "Ronda, Espagne",
+            "en": "Ronda, Spain"
+        },
+        "keywords": {
+            "fr": ["pont neuf", "taureaux"],
+            "en": ["New Bridge", "bullfighting"],
+            "postal": ["29400"]
+        },
+        "cityId": "65896"
+    },
+    {
+        "id": "rotterdam",
+        "name": {
+            "fr": "Rotterdam, Pays-Bas",
+            "en": "Rotterdam, Netherlands"
+        },
+        "keywords": {
+            "fr": ["Euromast", "port", "architecture moderne"],
+            "en": ["Euromast", "port", "modern architecture"],
+            "postal": ["3011"]
+        },
+        "cityId": "74895"
+    },
+    {
+        "id": "rovaniemi",
+        "name": {
+            "fr": "Rovaniemi, Finlande",
+            "en": "Rovaniemi, Finland"
+        },
+        "keywords": {
+            "fr": ["Père Noël", "cercle polaire"],
+            "en": ["Santa Claus", "Arctic Circle"],
+            "postal": ["96100"]
+        },
+        "cityId": "66502"
+    },
+    {
+        "id": "s-hertogenbosch",
+        "name": {
+            "fr": "Bois-le-Duc, Pays-Bas",
+            "en": "'s-Hertogenbosch, Netherlands"
+        },
+        "keywords": {
+            "fr": ["cathédrale Saint-Jean", "Jérôme Bosch"],
+            "en": ["St. John's Cathedral", "Hieronymus Bosch"],
+            "postal": ["5211"]
+        },
+        "cityId": "74887"
+    },
+    {
+        "id": "saint-augustine",
+        "name": {
+            "fr": "Saint Augustine, États-Unis",
+            "en": "Saint Augustine, United States"
+        },
+        "keywords": {
+            "fr": ["plus vieille ville", "Castillo de San Marcos"],
+            "en": ["oldest city", "Castillo de San Marcos"],
+            "postal": ["32084"]
+        },
+        "cityId": "122690"
+    },
+    {
+        "id": "saint-petersburg",
+        "name": {
+            "fr": "Saint-Pétersbourg, Russie",
+            "en": "Saint Petersburg, Russia"
+        },
+        "keywords": {
+            "fr": ["Ermitage", "Nevski"],
+            "en": ["Hermitage", "Nevsky"],
+            "postal": ["190000"]
+        },
+        "cityId": "77061"
+    },
+    {
+        "id": "saint-emilion",
+        "name": {
+            "fr": "Saint-Émilion, France",
+            "en": "Saint-Émilion, France"
+        },
+        "keywords": {
+            "fr": ["vignobles", "monolithe"],
+            "en": ["vineyards", "monolith"],
+            "postal": ["33330"]
+        },
+        "cityId": "177951"
+    },
+    {
+        "id": "sainte-mere-eglise",
+        "name": {
+            "fr": "Sainte-Mère-Église, France",
+            "en": "Sainte-Mère-Église, France"
+        },
+        "keywords": {
+            "fr": ["D-Day", "parachutiste"],
+            "en": ["D-Day", "paratrooper"],
+            "postal": ["50480"]
+        },
+        "cityId": "177952"
+    },
+    {
+        "id": "salisbury",
+        "name": {
+            "fr": "Salisbury, Royaume-Uni",
+            "en": "Salisbury, United Kingdom"
+        },
+        "keywords": {
+            "fr": ["cathédrale", "Stonehenge"],
+            "en": ["cathedral", "Stonehenge"],
+            "postal": ["SP1"]
+        },
+        "cityId": "67309"
+    },
+    {
+        "id": "salta",
+        "name": {
+            "fr": "Salta, Argentine",
+            "en": "Salta, Argentina"
+        },
+        "keywords": {
+            "fr": ["train des nuages", "Andes"],
+            "en": ["Train to the Clouds", "Andes"],
+            "postal": ["4400"]
+        },
+        "cityId": "60240"
+    },
+    {
+        "id": "salzburg",
+        "name": {
+            "fr": "Salzbourg, Autriche",
+            "en": "Salzburg, Austria"
+        },
+        "keywords": {
+            "fr": ["Mozart", "forteresse Hohensalzburg"],
+            "en": ["Mozart", "Hohensalzburg Fortress"],
+            "postal": ["5020"]
+        },
+        "cityId": "60346"
+    },
+    {
+        "id": "samut-songkhram",
+        "name": {
+            "fr": "Samut Songkhram, Thaïlande",
+            "en": "Samut Songkhram, Thailand"
+        },
+        "keywords": {
+            "fr": ["marché flottant", "Damnoen Saduak"],
+            "en": ["floating market", "Damnoen Saduak"],
+            "postal": ["75000"]
+        },
+        "cityId": "78528"
+    },
+    {
+        "id": "san-antonio",
+        "name": {
+            "fr": "San Antonio, États-Unis",
+            "en": "San Antonio, United States"
+        },
+        "keywords": {
+            "fr": ["Alamo", "River Walk"],
+            "en": ["Alamo", "River Walk"],
+            "postal": ["78205"]
+        },
+        "cityId": "248671"
+    },
+    {
+        "id": "san-clemente-del-tuyu",
+        "name": {
+            "fr": "San Clemente del Tuyú, Argentine",
+            "en": "San Clemente del Tuyú, Argentina"
+        },
+        "keywords": {
+            "fr": ["plages", "Mar del Plata"],
+            "en": ["beaches", "Mar del Plata"],
+            "postal": ["7105"]
+        },
+        "cityId": "83245"
+    },
+    {
+        "id": "san-diego",
+        "name": {
+            "fr": "San Diego, États-Unis",
+            "en": "San Diego, United States"
+        },
+        "keywords": {
+            "fr": ["zoo", "Balboa Park"],
+            "en": ["zoo", "Balboa Park"],
+            "postal": ["92101"]
+        },
+        "cityId": "81920"
+    },
+    {
+        "id": "san-francisco",
+        "name": {
+            "fr": "San Francisco, États-Unis",
+            "en": "San Francisco, United States"
+        },
+        "keywords": {
+            "fr": ["Golden Gate", "Alcatraz"],
+            "en": ["Golden Gate", "Alcatraz"],
+            "postal": ["94102"]
+        },
+        "cityId": "1772"
+    },
+    {
+        "id": "san-giovanni-la-punta",
+        "name": {
+            "fr": "San Giovanni la Punta, Italie",
+            "en": "San Giovanni la Punta, Italy"
+        },
+        "keywords": {
+            "fr": ["Sicile", "Etna"],
+            "en": ["Sicily", "Mount Etna"],
+            "postal": ["95037"]
+        },
+        "cityId": "71409"
+    },
+    {
+        "id": "san-jose",
+        "name": {
+            "fr": "San Jose, États-Unis",
+            "en": "San Jose, United States"
+        },
+        "keywords": {
+            "fr": ["Silicon Valley", "Tech Museum"],
+            "en": ["Silicon Valley", "Tech Museum"],
+            "postal": ["95113"]
+        },
+        "cityId": "81926"
+    },
+    {
+        "id": "san-sebastian",
+        "name": {
+            "fr": "Saint-Sébastien, Espagne",
+            "en": "San Sebastián, Spain"
+        },
+        "keywords": {
+            "fr": ["plage de la Concha", "festival du film"],
+            "en": ["La Concha Beach", "film festival"],
+            "postal": ["20001"]
+        },
+        "cityId": "66172"
+    },
+    {
+        "id": "santander",
+        "name": {
+            "fr": "Santander, Espagne",
+            "en": "Santander, Spain"
+        },
+        "keywords": {
+            "fr": ["plage del Sardinero", "palais de la Magdalena"],
+            "en": ["El Sardinero Beach", "Magdalena Palace"],
+            "postal": ["39001"]
+        },
+        "cityId": "66168"
+    },
+    {
+        "id": "sapanta",
+        "name": {
+            "fr": "Săpânţa, Roumanie",
+            "en": "Săpânţa, Romania"
+        },
+        "keywords": {
+            "fr": ["cimetière joyeux"],
+            "en": ["Merry Cemetery"],
+            "postal": ["437305"]
+        },
+        "cityId": "232513"
+    },
+    {
+        "id": "saudarkrokur",
+        "name": {
+            "fr": "Sauðárkrókur, Islande",
+            "en": "Sauðárkrókur, Iceland"
+        },
+        "keywords": {
+            "fr": ["Skagafjörður", "cheval islandais"],
+            "en": ["Skagafjörður", "Icelandic horse"],
+            "postal": ["550"]
+        },
+        "cityId": "104177"
+    },
+    {
+        "id": "savannah",
+        "name": {
+            "fr": "Savannah, États-Unis",
+            "en": "Savannah, United States"
+        },
+        "keywords": {
+            "fr": ["vieille ville", "parcs"],
+            "en": ["historic district", "squares"],
+            "postal": ["31401"]
+        },
+        "cityId": "80026"
+    },
+    {
+        "id": "seattle",
+        "name": {
+            "fr": "Seattle, États-Unis",
+            "en": "Seattle, United States"
+        },
+        "keywords": {
+            "fr": ["Space Needle", "Pike Place Market"],
+            "en": ["Space Needle", "Pike Place Market"],
+            "postal": ["98101"]
+        },
+        "cityId": "82304"
+    },
+    {
+        "id": "segovia",
+        "name": {
+            "fr": "Ségovie, Espagne",
+            "en": "Segovia, Spain"
+        },
+        "keywords": {
+            "fr": ["aqueduc", "alcazar"],
+            "en": ["aqueduct", "alcazar"],
+            "postal": ["40001"]
+        },
+        "cityId": "66160"
+    },
+    {
+        "id": "seoul",
+        "name": {
+            "fr": "Séoul, Corée du Sud",
+            "en": "Seoul, South Korea"
+        },
+        "keywords": {
+            "fr": ["palais Gyeongbokgung", "tour N Seoul"],
+            "en": ["Gyeongbokgung Palace", "N Seoul Tower"],
+            "postal": ["03045"]
+        },
+        "cityId": "73067"
+    },
+    {
+        "id": "seville",
+        "name": {
+            "fr": "Séville, Espagne",
+            "en": "Seville, Spain"
+        },
+        "keywords": {
+            "fr": ["Alcazar", "cathédrale", "place d'Espagne"],
+            "en": ["Alcázar", "cathedral", "Plaza de España"],
+            "postal": ["41001"]
+        },
+        "cityId": "65870"
+    },
+    {
+        "id": "sezana",
+        "name": {
+            "fr": "Sežana, Slovénie",
+            "en": "Sežana, Slovenia"
+        },
+        "keywords": {
+            "fr": ["karst", "grottes de Škocjan"],
+            "en": ["karst", "Škocjan Caves"],
+            "postal": ["6210"]
+        },
+        "cityId": "119195"
+    },
+    {
+        "id": "sharjah",
+        "name": {
+            "fr": "Sharjah, Émirats Arabes Unis",
+            "en": "Sharjah, United Arab Emirates"
+        },
+        "keywords": {
+            "fr": ["musée islamique", "vieille ville"],
+            "en": ["Islamic Museum", "old town"],
+            "postal": []
+        },
+        "cityId": "60007"
+    },
+    {
+        "id": "siem-reap",
+        "name": {
+            "fr": "Siem Reap, Cambodge",
+            "en": "Siem Reap, Cambodia"
+        },
+        "keywords": {
+            "fr": ["Angkor Wat", "Tonlé Sap"],
+            "en": ["Angkor Wat", "Tonlé Sap"],
+            "postal": ["17252"]
+        },
+        "cityId": "72961"
+    },
+    {
+        "id": "siena",
+        "name": {
+            "fr": "Sienne, Italie",
+            "en": "Siena, Italy"
+        },
+        "keywords": {
+            "fr": ["Piazza del Campo", "Palio"],
+            "en": ["Piazza del Campo", "Palio"],
+            "postal": ["53100"]
+        },
+        "cityId": "71558"
+    },
+    {
+        "id": "sighisoara",
+        "name": {
+            "fr": "Sighișoara, Roumanie",
+            "en": "Sighișoara, Romania"
+        },
+        "keywords": {
+            "fr": ["citadelle", "Dracula"],
+            "en": ["citadel", "Dracula"],
+            "postal": ["545400"]
+        },
+        "cityId": "76778"
+    },
+    {
+        "id": "sinaia",
+        "name": {
+            "fr": "Sinaia, Roumanie",
+            "en": "Sinaia, Romania"
+        },
+        "keywords": {
+            "fr": ["château de Peleș", "montagnes"],
+            "en": ["Peleș Castle", "mountains"],
+            "postal": ["106100"]
+        },
+        "cityId": "115342"
+    },
+    {
+        "id": "singapore",
+        "name": {
+            "fr": "Singapour",
+            "en": "Singapore"
+        },
+        "keywords": {
+            "fr": ["Marina Bay Sands", "Gardens by the Bay"],
+            "en": ["Marina Bay Sands", "Gardens by the Bay"],
+            "postal": ["018953"]
+        },
+        "cityId": "78125"
+    },
+    {
+        "id": "sintra",
+        "name": {
+            "fr": "Sintra, Portugal",
+            "en": "Sintra, Portugal"
+        },
+        "keywords": {
+            "fr": ["palais de Pena", "château des Maures"],
+            "en": ["Pena Palace", "Moorish Castle"],
+            "postal": ["2710"]
+        },
+        "cityId": "76496"
+    },
+    {
+        "id": "siracusa",
+        "name": {
+            "fr": "Syracuse, Italie",
+            "en": "Siracusa, Italy"
+        },
+        "keywords": {
+            "fr": ["île d'Ortygie", "théâtre grec"],
+            "en": ["Ortygia", "Greek theatre"],
+            "postal": ["96100"]
+        },
+        "cityId": "71400"
+    },
+    {
+        "id": "skagway",
+        "name": {
+            "fr": "Skagway, États-Unis",
+            "en": "Skagway, United States"
+        },
+        "keywords": {
+            "fr": ["ruée vers l'or", "White Pass"],
+            "en": ["gold rush", "White Pass"],
+            "postal": ["99840"]
+        },
+        "cityId": "292"
+    },
+    {
+        "id": "slagharen",
+        "name": {
+            "fr": "Slagharen, Pays-Bas",
+            "en": "Slagharen, Netherlands"
+        },
+        "keywords": {
+            "fr": ["parc d'attractions"],
+            "en": ["amusement park"],
+            "postal": ["7776"]
+        },
+        "cityId": "839"
+    },
+    {
+        "id": "sliema",
+        "name": {
+            "fr": "Sliema, Malte",
+            "en": "Sliema, Malta"
+        },
+        "keywords": {
+            "fr": ["front de mer", "shopping"],
+            "en": ["seafront", "shopping"],
+            "postal": ["SLM"]
+        },
+        "cityId": "108895"
+    },
+    {
+        "id": "sliven",
+        "name": {
+            "fr": "Sliven, Bulgarie",
+            "en": "Sliven, Bulgaria"
+        },
+        "keywords": {
+            "fr": ["montagnes", "source"],
+            "en": ["mountains", "spring"],
+            "postal": ["8800"]
+        },
+        "cityId": "60916"
+    },
+    {
+        "id": "sofia",
+        "name": {
+            "fr": "Sofia, Bulgarie",
+            "en": "Sofia, Bulgaria"
+        },
+        "keywords": {
+            "fr": ["cathédrale Alexandre-Nevski", "mont Vitosha"],
+            "en": ["Alexander Nevsky Cathedral", "Vitosha Mountain"],
+            "postal": ["1000"]
+        },
+        "cityId": "60914"
+    },
+    {
+        "id": "somersby",
+        "name": {
+            "fr": "Somersby, Australie",
+            "en": "Somersby, Australia"
+        },
+        "keywords": {
+            "fr": ["parc animalier", "bush"],
+            "en": ["wildlife park", "bush"],
+            "postal": ["2250"]
+        },
+        "cityId": "261071"
+    },
+    {
+        "id": "sonoma",
+        "name": {
+            "fr": "Sonoma, États-Unis",
+            "en": "Sonoma, United States"
+        },
+        "keywords": {
+            "fr": ["vallée de Sonoma", "vignobles"],
+            "en": ["Sonoma Valley", "vineyards"],
+            "postal": ["95476"]
+        },
+        "cityId": "126046"
+    },
+    {
+        "id": "sorrento",
+        "name": {
+            "fr": "Sorrente, Italie",
+            "en": "Sorrento, Italy"
+        },
+        "keywords": {
+            "fr": ["golfe de Naples", "citrons"],
+            "en": ["Gulf of Naples", "lemons"],
+            "postal": ["80067"]
+        },
+        "cityId": "71552"
+    },
+    {
+        "id": "south-kuta",
+        "name": {
+            "fr": "South Kuta, Indonésie",
+            "en": "South Kuta, Indonesia"
+        },
+        "keywords": {
+            "fr": ["plages", "surf"],
+            "en": ["beaches", "surfing"],
+            "postal": ["80361"]
+        },
+        "cityId": "261236"
+    },
+    {
+        "id": "split",
+        "name": {
+            "fr": "Split, Croatie",
+            "en": "Split, Croatia"
+        },
+        "keywords": {
+            "fr": ["palais de Dioclétien", "Riva"],
+            "en": ["Diocletian's Palace", "Riva"],
+            "postal": ["21000"]
+        },
+        "cityId": "68069"
+    },
+    {
+        "id": "squamish",
+        "name": {
+            "fr": "Squamish, Canada",
+            "en": "Squamish, Canada"
+        },
+        "keywords": {
+            "fr": ["montagnes", "escalade"],
+            "en": ["mountains", "rock climbing"],
+            "postal": ["V8B"]
+        },
+        "cityId": "301"
+    },
+    {
+        "id": "stavelot",
+        "name": {
+            "fr": "Stavelot, Belgique",
+            "en": "Stavelot, Belgium"
+        },
+        "keywords": {
+            "fr": ["circuit de Spa-Francorchamps", "abbaye"],
+            "en": ["Spa-Francorchamps circuit", "abbey"],
+            "postal": ["4970"]
+        },
+        "cityId": "84775"
+    },
+    {
+        "id": "stockholm",
+        "name": {
+            "fr": "Stockholm, Suède",
+            "en": "Stockholm, Sweden"
+        },
+        "keywords": {
+            "fr": ["Gamla Stan", "musée Vasa"],
+            "en": ["Gamla Stan", "Vasa Museum"],
+            "postal": ["111 29"]
+        },
+        "cityId": "1638"
+    },
+    {
+        "id": "stoke-on-trent",
+        "name": {
+            "fr": "Stoke-on-Trent, Royaume-Uni",
+            "en": "Stoke-on-Trent, United Kingdom"
+        },
+        "keywords": {
+            "fr": ["poterie", "Wedgwood"],
+            "en": ["pottery", "Wedgwood"],
+            "postal": ["ST1"]
+        },
+        "cityId": "67269"
+    },
+    {
+        "id": "stratford-upon-avon",
+        "name": {
+            "fr": "Stratford-upon-Avon, Royaume-Uni",
+            "en": "Stratford-upon-Avon, United Kingdom"
+        },
+        "keywords": {
+            "fr": ["Shakespeare", "Royal Shakespeare Theatre"],
+            "en": ["Shakespeare", "Royal Shakespeare Theatre"],
+            "postal": ["CV37"]
+        },
+        "cityId": "97844"
+    },
+    {
+        "id": "sydney",
+        "name": {
+            "fr": "Sydney, Australie",
+            "en": "Sydney, Australia"
+        },
+        "keywords": {
+            "fr": ["opéra", "Harbour Bridge"],
+            "en": ["Opera House", "Harbour Bridge"],
+            "postal": ["2000"]
+        },
+        "cityId": "60400"
+    },
+    {
+        "id": "taipei",
+        "name": {
+            "fr": "Taipei, Taïwan",
+            "en": "Taipei, Taiwan"
+        },
+        "keywords": {
+            "fr": ["Taipei 101", "mémorial Tchang Kaï-chek"],
+            "en": ["Taipei 101", "Chiang Kai-shek Memorial"],
+            "postal": ["100"]
+        },
+        "cityId": "79181"
+    },
+    {
+        "id": "tallinn",
+        "name": {
+            "fr": "Tallinn, Estonie",
+            "en": "Tallinn, Estonia"
+        },
+        "keywords": {
+            "fr": ["vieille ville", "Toompea"],
+            "en": ["old town", "Toompea"],
+            "postal": ["10146"]
+        },
+        "cityId": "65702"
+    },
+    {
+        "id": "tampa",
+        "name": {
+            "fr": "Tampa, États-Unis",
+            "en": "Tampa, United States"
+        },
+        "keywords": {
+            "fr": ["Busch Gardens", "Riverwalk"],
+            "en": ["Busch Gardens", "Riverwalk"],
+            "postal": ["33602"]
+        },
+        "cityId": "79946"
+    },
+    {
+        "id": "tarragona",
+        "name": {
+            "fr": "Tarragone, Espagne",
+            "en": "Tarragona, Spain"
+        },
+        "keywords": {
+            "fr": ["amphithéâtre", "rambla Nova"],
+            "en": ["amphitheatre", "rambla Nova"],
+            "postal": ["43001"]
+        },
+        "cityId": "66154"
+    },
+    {
+        "id": "tel-aviv",
+        "name": {
+            "fr": "Tel Aviv, Israël",
+            "en": "Tel Aviv, Israel"
+        },
+        "keywords": {
+            "fr": ["plages", "Bauhaus"],
+            "en": ["beaches", "Bauhaus"],
+            "postal": []
+        },
+        "cityId": "68635"
+    },
+    {
+        "id": "teruel",
+        "name": {
+            "fr": "Teruel, Espagne",
+            "en": "Teruel, Spain"
+        },
+        "keywords": {
+            "fr": ["Mudéjar", "dinosaures"],
+            "en": ["Mudéjar", "dinosaurs"],
+            "postal": ["44001"]
+        },
+        "cityId": "66150"
+    },
+    {
+        "id": "the-hague",
+        "name": {
+            "fr": "La Haye, Pays-Bas",
+            "en": "The Hague, Netherlands"
+        },
+        "keywords": {
+            "fr": ["Binnenhof", "Palais de la Paix"],
+            "en": ["Binnenhof", "Peace Palace"],
+            "postal": ["2513"]
+        },
+        "cityId": "74889"
+    },
+    {
+        "id": "tilburg",
+        "name": {
+            "fr": "Tilburg, Pays-Bas",
+            "en": "Tilburg, Netherlands"
+        },
+        "keywords": {
+            "fr": ["université", "Efteling"],
+            "en": ["university", "Efteling"],
+            "postal": ["5038"]
+        },
+        "cityId": "74872"
+    },
+    {
+        "id": "tivoli",
+        "name": {
+            "fr": "Tivoli, Italie",
+            "en": "Tivoli, Italy"
+        },
+        "keywords": {
+            "fr": ["villa d'Este", "villa Hadriana"],
+            "en": ["Villa d'Este", "Hadrian's Villa"],
+            "postal": ["00019"]
+        },
+        "cityId": "71537"
+    },
+    {
+        "id": "tokyo",
+        "name": {
+            "fr": "Tokyo, Japon",
+            "en": "Tokyo, Japan"
+        },
+        "keywords": {
+            "fr": ["Shibuya", "quartier Shinjuku", "palais impérial"],
+            "en": ["Shibuya", "Shinjuku district", "Imperial Palace"],
+            "postal": ["100-0001"]
+        },
+        "cityId": "72181"
+    },
+    {
+        "id": "toledo",
+        "name": {
+            "fr": "Tolède, Espagne",
+            "en": "Toledo, Spain"
+        },
+        "keywords": {
+            "fr": ["alcazar", "cathédrale"],
+            "en": ["alcázar", "cathedral"],
+            "postal": ["45001"]
+        },
+        "cityId": "170113"
+    },
+    {
+        "id": "toronto",
+        "name": {
+            "fr": "Toronto, Canada",
+            "en": "Toronto, Canada"
+        },
+        "keywords": {
+            "fr": ["tour CN", "quartier Distillery"],
+            "en": ["CN Tower", "Distillery District"],
+            "postal": ["M5V"]
+        },
+        "cityId": "62492"
+    },
+    {
+        "id": "torquay",
+        "name": {
+            "fr": "Torquay, Royaume-Uni",
+            "en": "Torquay, United Kingdom"
+        },
+        "keywords": {
+            "fr": ["English Riviera", "plages"],
+            "en": ["English Riviera", "beaches"],
+            "postal": ["TQ1"]
+        },
+        "cityId": "83942"
+    },
+    {
+        "id": "toulouse",
+        "name": {
+            "fr": "Toulouse, France",
+            "en": "Toulouse, France"
+        },
+        "keywords": {
+            "fr": ["Capitole", "Cité de l'espace"],
+            "en": ["Capitole", "Cité de l'espace"],
+            "postal": ["31000"]
+        },
+        "cityId": "66619"
+    },
+    {
+        "id": "tours",
+        "name": {
+            "fr": "Tours, France",
+            "en": "Tours, France"
+        },
+        "keywords": {
+            "fr": ["place Plumereau", "châteaux de la Loire"],
+            "en": ["Plumereau Square", "Loire Valley castles"],
+            "postal": ["37000"]
+        },
+        "cityId": "66615"
+    },
+    {
+        "id": "tredozio",
+        "name": {
+            "fr": "Tredozio, Italie",
+            "en": "Tredozio, Italy"
+        },
+        "keywords": {
+            "fr": ["Toscane", "Apennins"],
+            "en": ["Tuscany", "Apennines"],
+            "postal": ["47019"]
+        },
+        "cityId": "205342"
+    },
+    {
+        "id": "treviso",
+        "name": {
+            "fr": "Trévise, Italie",
+            "en": "Treviso, Italy"
+        },
+        "keywords": {
+            "fr": ["Prosecco", "canaux"],
+            "en": ["Prosecco", "canals"],
+            "postal": ["31100"]
+        },
+        "cityId": "71524"
+    },
+    {
+        "id": "tulum",
+        "name": {
+            "fr": "Tulum, Mexique",
+            "en": "Tulum, Mexico"
+        },
+        "keywords": {
+            "fr": ["ruines mayas", "plages"],
+            "en": ["Mayan ruins", "beaches"],
+            "postal": ["77780"]
+        },
+        "cityId": "109113"
+    },
+    {
+        "id": "turin",
+        "name": {
+            "fr": "Turin, Italie",
+            "en": "Turin, Italy"
+        },
+        "keywords": {
+            "fr": ["Mole Antonelliana", "Saint-Suaire"],
+            "en": ["Mole Antonelliana", "Shroud of Turin"],
+            "postal": ["10121"]
+        },
+        "cityId": "71534"
+    },
+    {
+        "id": "ubud",
+        "name": {
+            "fr": "Ubud, Indonésie",
+            "en": "Ubud, Indonesia"
+        },
+        "keywords": {
+            "fr": ["rizières", "culture balinaise"],
+            "en": ["rice terraces", "Balinese culture"],
+            "postal": ["80571"]
+        },
+        "cityId": "68270"
+    },
+    {
+        "id": "ungersheim",
+        "name": {
+            "fr": "Ungersheim, France",
+            "en": "Ungersheim, France"
+        },
+        "keywords": {
+            "fr": ["Écomusée d'Alsace"],
+            "en": ["Écomusée d'Alsace"],
+            "postal": ["68190"]
+        },
+        "cityId": "176560"
+    },
+    {
+        "id": "urbino",
+        "name": {
+            "fr": "Urbino, Italie",
+            "en": "Urbino, Italy"
+        },
+        "keywords": {
+            "fr": ["palais ducal", "Raphaël"],
+            "en": ["Ducal Palace", "Raphael"],
+            "postal": ["61029"]
+        },
+        "cityId": "71518"
+    },
+    {
+        "id": "ushuaia",
+        "name": {
+            "fr": "Ushuaia, Argentine",
+            "en": "Ushuaia, Argentina"
+        },
+        "keywords": {
+            "fr": ["Terre de Feu", "canal Beagle"],
+            "en": ["Tierra del Fuego", "Beagle Channel"],
+            "postal": ["9410"]
+        },
+        "cityId": "60210"
+    },
+    {
+        "id": "utrecht",
+        "name": {
+            "fr": "Utrecht, Pays-Bas",
+            "en": "Utrecht, Netherlands"
+        },
+        "keywords": {
+            "fr": ["Domtoren", "canaux"],
+            "en": ["Dom Tower", "canals"],
+            "postal": ["3511"]
+        },
+        "cityId": "74866"
+    },
+    {
+        "id": "valencia",
+        "name": {
+            "fr": "Valence, Espagne",
+            "en": "Valencia, Spain"
+        },
+        "keywords": {
+            "fr": ["Cité des Arts et des Sciences", "plages"],
+            "en": ["City of Arts and Sciences", "beaches"],
+            "postal": ["46001"]
+        },
+        "cityId": "65847"
+    },
+    {
+        "id": "valletta",
+        "name": {
+            "fr": "La Valette, Malte",
+            "en": "Valletta, Malta"
+        },
+        "keywords": {
+            "fr": ["co-cathédrale Saint-Jean", "fort Saint-Elme"],
+            "en": ["St. John's Co-Cathedral", "Fort St Elmo"],
+            "postal": ["VLT"]
+        },
+        "cityId": "73787"
+    },
+    {
+        "id": "vancouver",
+        "name": {
+            "fr": "Vancouver, Canada",
+            "en": "Vancouver, Canada"
+        },
+        "keywords": {
+            "fr": ["Stanley Park", "Capilano Suspension Bridge"],
+            "en": ["Stanley Park", "Capilano Suspension Bridge"],
+            "postal": ["V6B"]
+        },
+        "cityId": "62496"
+    },
+    {
+        "id": "vantaa",
+        "name": {
+            "fr": "Vantaa, Finlande",
+            "en": "Vantaa, Finland"
+        },
+        "keywords": {
+            "fr": ["aéroport", "Heureka"],
+            "en": ["airport", "Heureka"],
+            "postal": ["01300"]
+        },
+        "cityId": "66489"
+    },
+    {
+        "id": "varenna",
+        "name": {
+            "fr": "Varenna, Italie",
+            "en": "Varenna, Italy"
+        },
+        "keywords": {
+            "fr": ["lac de Côme", "villa Monastero"],
+            "en": ["Lake Como", "Villa Monastero"],
+            "postal": ["23829"]
+        },
+        "cityId": "205179"
+    },
+    {
+        "id": "varese",
+        "name": {
+            "fr": "Varèse, Italie",
+            "en": "Varese, Italy"
+        },
+        "keywords": {
+            "fr": ["lac de Varèse", "Sacromonte"],
+            "en": ["Lake Varese", "Sacromonte"],
+            "postal": ["21100"]
+        },
+        "cityId": "71514"
+    },
+    {
+        "id": "varna",
+        "name": {
+            "fr": "Varna, Bulgarie",
+            "en": "Varna, Bulgaria"
+        },
+        "keywords": {
+            "fr": ["mer Noire", "jardin maritime"],
+            "en": ["Black Sea", "Sea Garden"],
+            "postal": ["9000"]
+        },
+        "cityId": "60906"
+    },
+    {
+        "id": "venice",
+        "name": {
+            "fr": "Venise, Italie",
+            "en": "Venice, Italy"
+        },
+        "keywords": {
+            "fr": ["place Saint-Marc", "canal Grande"],
+            "en": ["St Mark's Square", "Grand Canal"],
+            "postal": ["30100"]
+        },
+        "cityId": "71510"
+    },
+    {
+        "id": "veracruz",
+        "name": {
+            "fr": "Veracruz, Mexique",
+            "en": "Veracruz, Mexico"
+        },
+        "keywords": {
+            "fr": ["port", "forteresse de San Juan de Ulúa"],
+            "en": ["port", "San Juan de Ulúa fortress"],
+            "postal": ["91700"]
+        },
+        "cityId": "73840"
+    },
+    {
+        "id": "verbania",
+        "name": {
+            "fr": "Verbania, Italie",
+            "en": "Verbania, Italy"
+        },
+        "keywords": {
+            "fr": ["lac Majeur", "jardins botaniques"],
+            "en": ["Lake Maggiore", "botanical gardens"],
+            "postal": ["28921"]
+        },
+        "cityId": "72048"
+    },
+    {
+        "id": "verona",
+        "name": {
+            "fr": "Vérone, Italie",
+            "en": "Verona, Italy"
+        },
+        "keywords": {
+            "fr": ["arène de Vérone", "maison de Juliette"],
+            "en": ["Verona Arena", "Juliet's House"],
+            "postal": ["37121"]
+        },
+        "cityId": "71506"
+    },
+    {
+        "id": "victoria",
+        "name": {
+            "fr": "Victoria, Canada",
+            "en": "Victoria, Canada"
+        },
+        "keywords": {
+            "fr": ["parc Beacon Hill", "Inner Harbour"],
+            "en": ["Beacon Hill Park", "Inner Harbour"],
+            "postal": ["V8W"]
+        },
+        "cityId": "62501"
+    },
+    {
+        "id": "vienna",
+        "name": {
+            "fr": "Vienne, Autriche",
+            "en": "Vienna, Austria"
+        },
+        "keywords": {
+            "fr": ["palais de Schönbrunn", "Opéra", "Hofburg"],
+            "en": ["Schönbrunn Palace", "Opera", "Hofburg"],
+            "postal": ["1010"]
+        },
+        "cityId": "60335"
+    },
+    {
+        "id": "vik",
+        "name": {
+            "fr": "Vík, Islande",
+            "en": "Vík, Iceland"
+        },
+        "keywords": {
+            "fr": ["plage de sable noir", "Reynisdrangar"],
+            "en": ["black sand beach", "Reynisdrangar"],
+            "postal": ["870"]
+        },
+        "cityId": "71390"
+    },
+    {
+        "id": "vilnius",
+        "name": {
+            "fr": "Vilnius, Lituanie",
+            "en": "Vilnius, Lithuania"
+        },
+        "keywords": {
+            "fr": ["vieille ville", "tour Gediminas"],
+            "en": ["old town", "Gediminas Tower"],
+            "postal": ["01124"]
+        },
+        "cityId": "73352"
+    },
+    {
+        "id": "viterbo",
+        "name": {
+            "fr": "Viterbe, Italie",
+            "en": "Viterbo, Italy"
+        },
+        "keywords": {
+            "fr": ["quartier médiéval", "terme"],
+            "en": ["medieval quarter", "thermal baths"],
+            "postal": ["01100"]
+        },
+        "cityId": "71494"
+    },
+    {
+        "id": "volendam",
+        "name": {
+            "fr": "Volendam, Pays-Bas",
+            "en": "Volendam, Netherlands"
+        },
+        "keywords": {
+            "fr": ["port", "costumes traditionnels"],
+            "en": ["harbour", "traditional costumes"],
+            "postal": ["1131"]
+        },
+        "cityId": "74851"
+    },
+    {
+        "id": "wailuku",
+        "name": {
+            "fr": "Wailuku, États-Unis",
+            "en": "Wailuku, United States"
+        },
+        "keywords": {
+            "fr": ["Maui", "Iao Valley"],
+            "en": ["Maui", "Iao Valley"],
+            "postal": ["96793"]
+        },
+        "cityId": "82338"
+    },
+    {
+        "id": "waimanalo",
+        "name": {
+            "fr": "Waimanalo, États-Unis",
+            "en": "Waimanalo, United States"
+        },
+        "keywords": {
+            "fr": ["Hawaii", "plages"],
+            "en": ["Hawaii", "beaches"],
+            "postal": ["96795"]
+        },
+        "cityId": "1036"
+    },
+    {
+        "id": "wangetti",
+        "name": {
+            "fr": "Wangetti, Australie",
+            "en": "Wangetti, Australia"
+        },
+        "keywords": {
+            "fr": ["Queensland", "forêt tropicale"],
+            "en": ["Queensland", "rainforest"],
+            "postal": ["4877"]
+        },
+        "cityId": "261137"
+    },
+    {
+        "id": "washington-dc",
+        "name": {
+            "fr": "Washington, D.C., États-Unis",
+            "en": "Washington, D.C., United States"
+        },
+        "keywords": {
+            "fr": ["Maison Blanche", "National Mall"],
+            "en": ["White House", "National Mall"],
+            "postal": ["20001"]
+        },
+        "cityId": "79751"
+    },
+    {
+        "id": "waterford",
+        "name": {
+            "fr": "Waterford, Irlande",
+            "en": "Waterford, Ireland"
+        },
+        "keywords": {
+            "fr": ["cristal", "région Viking"],
+            "en": ["crystal", "Viking Triangle"],
+            "postal": ["X91"]
+        },
+        "cityId": "68596"
+    },
+    {
+        "id": "wattens",
+        "name": {
+            "fr": "Wattens, Autriche",
+            "en": "Wattens, Austria"
+        },
+        "keywords": {
+            "fr": ["Swarovski", "musée des Cristaux"],
+            "en": ["Swarovski", "Crystal Worlds"],
+            "postal": ["6112"]
+        },
+        "cityId": "83662"
+    },
+    {
+        "id": "weymouth",
+        "name": {
+            "fr": "Weymouth, Royaume-Uni",
+            "en": "Weymouth, United Kingdom"
+        },
+        "keywords": {
+            "fr": ["plage", "port"],
+            "en": ["beach", "harbour"],
+            "postal": ["DT4"]
+        },
+        "cityId": "67236"
+    },
+    {
+        "id": "williamsburg",
+        "name": {
+            "fr": "Williamsburg, États-Unis",
+            "en": "Williamsburg, United States"
+        },
+        "keywords": {
+            "fr": ["Colonial Williamsburg", "Busch Gardens"],
+            "en": ["Colonial Williamsburg", "Busch Gardens"],
+            "postal": ["23185"]
+        },
+        "cityId": "260937"
+    },
+    {
+        "id": "windermere",
+        "name": {
+            "fr": "Windermere, Royaume-Uni",
+            "en": "Windermere, United Kingdom"
+        },
+        "keywords": {
+            "fr": ["Lake District", "lac Windermere"],
+            "en": ["Lake District", "Lake Windermere"],
+            "postal": ["LA23"]
+        },
+        "cityId": "97691"
+    },
+    {
+        "id": "windsor",
+        "name": {
+            "fr": "Windsor, Royaume-Uni",
+            "en": "Windsor, United Kingdom"
+        },
+        "keywords": {
+            "fr": ["château de Windsor", "Legoland"],
+            "en": ["Windsor Castle", "Legoland"],
+            "postal": ["SL4"]
+        },
+        "cityId": "67223"
+    },
+    {
+        "id": "wolfsburg",
+        "name": {
+            "fr": "Wolfsburg, Allemagne",
+            "en": "Wolfsburg, Germany"
+        },
+        "keywords": {
+            "fr": ["Autostadt", "Volkswagen"],
+            "en": ["Autostadt", "Volkswagen"],
+            "postal": ["38440"]
+        },
+        "cityId": "64249"
+    },
+    {
+        "id": "yonkers",
+        "name": {
+            "fr": "Yonkers, États-Unis",
+            "en": "Yonkers, United States"
+        },
+        "keywords": {
+            "fr": ["Hudson River", "Science Barge"],
+            "en": ["Hudson River", "Science Barge"],
+            "postal": ["10701"]
+        },
+        "cityId": "81390"
+    },
+    {
+        "id": "yorba-linda",
+        "name": {
+            "fr": "Yorba Linda, États-Unis",
+            "en": "Yorba Linda, United States"
+        },
+        "keywords": {
+            "fr": ["bibliothèque Nixon", "parcs"],
+            "en": ["Nixon Library", "parks"],
+            "postal": ["92886"]
+        },
+        "cityId": "82014"
+    },
+    {
+        "id": "york",
+        "name": {
+            "fr": "York, Royaume-Uni",
+            "en": "York, United Kingdom"
+        },
+        "keywords": {
+            "fr": ["cathédrale d'York", "murs d'enceinte"],
+            "en": ["York Minster", "city walls"],
+            "postal": ["YO1"]
+        },
+        "cityId": "67204"
+    },
+    {
+        "id": "zaandam",
+        "name": {
+            "fr": "Zaandam, Pays-Bas",
+            "en": "Zaandam, Netherlands"
+        },
+        "keywords": {
+            "fr": ["Zaanse Schans", "moulins"],
+            "en": ["Zaanse Schans", "windmills"],
+            "postal": ["1506"]
+        },
+        "cityId": "74827"
+    },
+    {
+        "id": "zator",
+        "name": {
+            "fr": "Zator, Pologne",
+            "en": "Zator, Poland"
+        },
+        "keywords": {
+            "fr": ["Energylandia"],
+            "en": ["Energylandia"],
+            "postal": ["32-640"]
+        },
+        "cityId": "228605"
+    },
+    {
+        "id": "zundert",
+        "name": {
+            "fr": "Zundert, Pays-Bas",
+            "en": "Zundert, Netherlands"
+        },
+        "keywords": {
+            "fr": ["Van Gogh", "parc floral"],
+            "en": ["Van Gogh", "flower parade"],
+            "postal": ["4881"]
+        },
+        "cityId": "74819"
     }
 ]
